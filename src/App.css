@@ -1,11 +1,11 @@
 /*colors*/
 /*font families*/
 /*font weights include 300, 400, 600*/
-/*font weights include 400, 700*/
+/*font weights include 300, 400*/
 /*colors*/
 /*font families*/
 /*font weights include 300, 400, 600*/
-/*font weights include 400, 700*/
+/*font weights include 300, 400*/
 .navbar {
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@
 /*colors*/
 /*font families*/
 /*font weights include 300, 400, 600*/
-/*font weights include 400, 700*/
+/*font weights include 300, 400*/
 .navbar-ad {
   display: flex;
   justify-content: center;
@@ -86,3 +86,38 @@
     font-size: 15px;
     font-weight: 300;
     line-height: 21px; }
+
+/*colors*/
+/*font families*/
+/*font weights include 300, 400, 600*/
+/*font weights include 300, 400*/
+.splash-banner {
+  width: 100%;
+  height: 460px;
+  background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/hero/hero-bg--home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff; }
+
+.splash-title-text {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  width: 970px;
+  text-align: center;
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-weight: 400; }
+
+.splash-subtitle-text {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 970px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  margin: 24px 0 36px 0; }
