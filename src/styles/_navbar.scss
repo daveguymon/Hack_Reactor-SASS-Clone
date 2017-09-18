@@ -1,3 +1,58 @@
+@import 'variables.scss';
+
 .navbar {
-  color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.logoContainer {
+  width: 142px * 1.15;
+  height: 42px * 1.15;
+  background-image: url(./images/hack-reactor-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navLinksContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.navLink {
+  color: $primarygrey;
+  padding: 0 10px;
+  font-family: $mainfont;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  .fa-caret-down {
+    color: $primaryblue;
+    margin-left: 5px;
+  }
+}
+
+.navLink:hover {
+  color: $primaryblue;
+}
+
+.button {
+  width: 130px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primaryblue;
+  border-radius: 2px;
+    p {
+      color: #ffffff;
+      font-family: $mainfont;
+      font-size: 14px;
+      line-height: 21px;
+    }
 }

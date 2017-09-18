@@ -2,10 +2,6 @@
 /*font families*/
 /*font weights include 300, 400, 600*/
 /*font weights include 400, 700*/
-/*colors*/
-/*font families*/
-/*font weights include 300, 400, 600*/
-/*font weights include 400, 700*/
 .navbar {
   display: flex;
   justify-content: center;
@@ -28,7 +24,7 @@
   margin: 0 40px; }
 
 .navLink {
-  color: #7c7c7c;
+  color: #d0d0d0;
   padding: 0 10px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
@@ -54,3 +50,5 @@
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
     line-height: 21px; }
+
+/*# sourceMappingURL=_navbar.css.map */
