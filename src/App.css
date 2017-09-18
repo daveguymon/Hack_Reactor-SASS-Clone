@@ -10,36 +10,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
-  width: 100%;
-  border: 2px solid black; }
+  height: 100px;
+  width: 100%; }
 
-.logoContainer {
-  width: 163.3px;
-  height: 48.3px;
+.logo-container {
+  width: 156.2px;
+  height: 46.2px;
   background-image: url(./images/hack-reactor-logo.png);
   background-size: contain;
   background-repeat: no-repeat; }
 
-.navLinksContainer {
+.nav-links-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 40px; }
+  margin: 0 24px; }
 
-.navLink {
+.nav-link {
   color: #7c7c7c;
-  padding: 0 10px;
+  padding: 0 12px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px; }
-  .navLink .fa-caret-down {
-    color: #0090d9;
+  .nav-link .fa-caret-down {
+    color: #0090D9;
     margin-left: 5px; }
 
-.navLink:hover {
-  color: #0090d9; }
+.nav-link:hover {
+  color: #0090D9; }
 
 .button {
   width: 130px;
@@ -47,10 +46,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0090d9;
-  border-radius: 2px; }
+  background-color: #0090D9;
+  border-radius: 3px; }
   .button p {
     color: #ffffff;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
+    line-height: 21px; }
+
+/*colors*/
+/*font families*/
+/*font weights include 300, 400, 600*/
+/*font weights include 400, 700*/
+.navbar-ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.15); }
+  .navbar-ad p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #3d3935; }
+
+.small-button {
+  width: 110px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0090D9;
+  border-radius: 3px;
+  margin-left: 17.5px; }
+  .small-button p {
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
     line-height: 21px; }

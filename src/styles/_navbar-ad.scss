@@ -1,0 +1,35 @@
+@import 'variables.scss';
+
+.navbar-ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  box-shadow: 0 1px 3px 2px rgba(0,0,0,0.15);
+    p {
+      font-family: $mainfont;
+      font-size: 15px;
+      font-weight: 400;
+      color: #3d3935;
+    }
+}
+
+.small-button {
+  width: 110px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primaryblue;
+  border-radius: 3px;
+  margin-left: 17.5px;
+    p {
+      color: #ffffff;
+      font-family: $mainfont;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 21px;
+    }
+
+}
