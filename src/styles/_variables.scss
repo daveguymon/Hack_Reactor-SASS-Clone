@@ -7,7 +7,26 @@ $primarywhite: #ffffff;
 
 /*font families*/
 $mainfont: 'Source Sans Pro', sans-serif;
-/*font weights include 300, 400, 600*/
+/*font weights include 200, 300, 400, 600*/
 
 $titletext: 'Merriweather', serif;
 /*font weights include 300, 400*/
+
+
+/*Mixins*/
+@mixin flexdisplay($direction, $justify, $align){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin maintext($weight){
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: $weight;
+}
+
+@mixin titletext($weight){
+  font-family: 'Merriweather', serif;
+  font-weight: $weight;
+}

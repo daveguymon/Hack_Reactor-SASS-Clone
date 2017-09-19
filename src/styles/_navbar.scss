@@ -1,9 +1,7 @@
 @import 'variables.scss';
 
 .navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexdisplay(row, center, center);
   height: 100px;
   width: 100%;
 }
@@ -17,9 +15,7 @@
 }
 
 .nav-links-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexdisplay(row, center, center);
   margin: 0 24px;
 }
 
@@ -43,9 +39,7 @@
 .button {
   width: 130px;
   height: 41px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexdisplay(row, center, center);
   background-color: $primaryblue;
   border-radius: 3px;
     p {
