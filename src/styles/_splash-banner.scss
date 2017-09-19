@@ -3,6 +3,8 @@
 .splash-banner {
   width: 100%;
   height: 460px;
+  position: relative;
+  top: 150px;
   background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/hero/hero-bg--home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,69 +12,69 @@
   @include flexdisplay(column, center, center);
   color: $primarywhite;
   padding-top: 5px;
-}
 
-.splash-title-text {
-  @include titletext(300);
-  width: 970px;
-  text-align: center;
-  font-size: 42px;
-  line-height: 60px;
-  letter-spacing: 2px;
-}
+  .splash-title-text {
+    @include titletext(300);
+    width: 970px;
+    text-align: center;
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 2px;
+  }
 
-.splash-subtitle-text {
-  @include maintext(200);
-  width: 970px;
-  text-align: center;
-  font-size: 24px;
-  line-height: 36px;
-  margin: 24px 0 36px 0;
-}
+  .splash-subtitle-text {
+    @include maintext(200);
+    width: 970px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 24px 0 36px 0;
+  }
 
-.buttons-container {
-  @include flexdisplay(row, center, center);
-  width: 970px;
-  font-size: 16px;
-  line-height: 21px;
-}
+  .buttons-container {
+    @include flexdisplay(row, center, center);
+    width: 970px;
+    font-size: 16px;
+    line-height: 21px;
+  }
 
-.start-learning-btn, .who-we-are-btn {
-  @include flexdisplay(row, center, center);
-  width: 260px;
-  height: 41px;
-  padding: 9px 24px;
-  border-radius: 3px;
-}
+  .start-learning-btn, .who-we-are-btn {
+    @include flexdisplay(row, center, center);
+    width: 260px;
+    height: 41px;
+    padding: 9px 24px;
+    border-radius: 3px;
+  }
 
-.start-learning-btn {
-  background-color: $primaryblue;
-  margin-right: 12px;
-}
+  .start-learning-btn {
+    background-color: $primaryblue;
+    margin-right: 12px;
+  }
 
-.who-we-are-btn {
-  border: 1px solid $primarywhite;
-  margin-left: 12px;
-  background-color: rgba(255,255,255,.2);
-    p {
-      @include flexdisplay(row, center, center);
-      width: 100%;
-        .play-circle {
-          @include flexdisplay(row, center, center);
-          border-radius: 999px;
-          width: 24px;
-          height: 24px;
-          border: 1px solid $primarywhite;
-          padding-left: 2.5px;
-          margin-left: 8px;
-            .fa-play {
-              font-size: .65em;
-            }
-        }
-    }
-}
+  .who-we-are-btn {
+    border: 1px solid $primarywhite;
+    margin-left: 12px;
+    background-color: rgba(255,255,255,.2);
+      p {
+        @include flexdisplay(row, center, center);
+        width: 100%;
+          .play-circle {
+            @include flexdisplay(row, center, center);
+            border-radius: 999px;
+            width: 24px;
+            height: 24px;
+            border: 1px solid $primarywhite;
+            padding-left: 2.5px;
+            margin-left: 8px;
+              .fa-play {
+                font-size: .65em;
+              }
+          }
+      }
+  }
 
-.who-we-are-btn:hover {
-  background-color: $primarywhite;
-  color: $primaryblack;
+  .who-we-are-btn:hover {
+    background-color: $primarywhite;
+    color: $primaryblack;
+  }
 }

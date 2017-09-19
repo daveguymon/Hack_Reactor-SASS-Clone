@@ -4,9 +4,9 @@ export default function SplashBanner (props){
 
   return (
     <main className="splash-banner">
-      <p className="splash-title-text">Don’t just Learn to Code:<br />
-      Think Like a Software Engineer</p>
-      <p className="splash-subtitle-text">Reinvent Your Career in 12 weeks</p>
+      <h1 className="splash-title-text">Don’t just Learn to Code:<br />
+      Think Like a Software Engineer</h1>
+      <h2 className="splash-subtitle-text">Reinvent Your Career in 12 weeks</h2>
       <div className="buttons-container">
         <div className="start-learning-btn">
           <p>Start Learning For Free</p>

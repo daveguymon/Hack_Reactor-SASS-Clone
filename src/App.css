@@ -14,50 +14,49 @@
   justify-content: center;
   align-items: center;
   height: 100px;
-  width: 100%; }
-
-.logo-container {
-  width: 156.2px;
-  height: 46.2px;
-  background-image: url(./images/hack-reactor-logo.png);
-  background-size: contain;
-  background-repeat: no-repeat; }
-
-.nav-links-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0 24px; }
-
-.nav-link {
-  color: #7c7c7c;
-  padding: 0 12px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px; }
-  .nav-link .fa-caret-down {
-    color: #0090D9;
-    margin-left: 5px; }
-
-.nav-link:hover {
-  color: #0090D9; }
-
-.button {
-  width: 130px;
-  height: 41px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #0090D9;
-  border-radius: 3px; }
-  .button p {
-    color: #ffffff;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 99;
+  top: 50px; }
+  .navbar .logo-container {
+    width: 156.2px;
+    height: 46.2px;
+    background-image: url(./images/hack-reactor-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .navbar .nav-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 24px; }
+  .navbar .nav-link {
+    color: #7c7c7c;
+    padding: 0 12px;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
-    line-height: 21px; }
+    font-weight: 300;
+    line-height: 24px; }
+    .navbar .nav-link .fa-caret-down {
+      color: #0090D9;
+      margin-left: 5px; }
+  .navbar .nav-link:hover {
+    color: #0090D9; }
+  .navbar .button {
+    width: 130px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0090D9;
+    border-radius: 3px; }
+    .navbar .button p {
+      color: #ffffff;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 14px;
+      line-height: 21px; }
 
 /*colors*/
 /*font families*/
@@ -71,29 +70,31 @@
   align-items: center;
   height: 50px;
   width: 100%;
-  box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.15); }
+  background-color: #ffffff;
+  z-index: 100;
+  box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.15);
+  position: fixed; }
   .navbar-ad p {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #3d3935; }
-
-.small-button {
-  width: 110px;
-  height: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #0090D9;
-  border-radius: 3px;
-  margin-left: 17.5px; }
-  .small-button p {
-    color: #ffffff;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 21px; }
+  .navbar-ad .small-button {
+    width: 110px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0090D9;
+    border-radius: 3px;
+    margin-left: 17.5px; }
+    .navbar-ad .small-button p {
+      color: #ffffff;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 21px; }
 
 /*colors*/
 /*font families*/
@@ -103,6 +104,8 @@
 .splash-banner {
   width: 100%;
   height: 460px;
+  position: relative;
+  top: 150px;
   background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/hero/hero-bg--home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,72 +116,107 @@
   align-items: center;
   color: #ffffff;
   padding-top: 5px; }
-
-.splash-title-text {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  width: 970px;
-  text-align: center;
-  font-size: 42px;
-  line-height: 60px;
-  letter-spacing: 2px; }
-
-.splash-subtitle-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200;
-  width: 970px;
-  text-align: center;
-  font-size: 24px;
-  line-height: 36px;
-  margin: 24px 0 36px 0; }
-
-.buttons-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 970px;
-  font-size: 16px;
-  line-height: 21px; }
-
-.start-learning-btn, .who-we-are-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 260px;
-  height: 41px;
-  padding: 9px 24px;
-  border-radius: 3px; }
-
-.start-learning-btn {
-  background-color: #0090D9;
-  margin-right: 12px; }
-
-.who-we-are-btn {
-  border: 1px solid #ffffff;
-  margin-left: 12px;
-  background-color: rgba(255, 255, 255, 0.2); }
-  .who-we-are-btn p {
+  .splash-banner .splash-title-text {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    width: 970px;
+    text-align: center;
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 2px; }
+  .splash-banner .splash-subtitle-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    width: 970px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 24px 0 36px 0; }
+  .splash-banner .buttons-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%; }
-    .who-we-are-btn p .play-circle {
+    width: 970px;
+    font-size: 16px;
+    line-height: 21px; }
+  .splash-banner .start-learning-btn, .splash-banner .who-we-are-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 41px;
+    padding: 9px 24px;
+    border-radius: 3px; }
+  .splash-banner .start-learning-btn {
+    background-color: #0090D9;
+    margin-right: 12px; }
+  .splash-banner .who-we-are-btn {
+    border: 1px solid #ffffff;
+    margin-left: 12px;
+    background-color: rgba(255, 255, 255, 0.2); }
+    .splash-banner .who-we-are-btn p {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      border-radius: 999px;
-      width: 24px;
-      height: 24px;
-      border: 1px solid #ffffff;
-      padding-left: 2.5px;
-      margin-left: 8px; }
-      .who-we-are-btn p .play-circle .fa-play {
-        font-size: .65em; }
+      width: 100%; }
+      .splash-banner .who-we-are-btn p .play-circle {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 999px;
+        width: 24px;
+        height: 24px;
+        border: 1px solid #ffffff;
+        padding-left: 2.5px;
+        margin-left: 8px; }
+        .splash-banner .who-we-are-btn p .play-circle .fa-play {
+          font-size: .65em; }
+  .splash-banner .who-we-are-btn:hover {
+    background-color: #ffffff;
+    color: #000000; }
 
-.who-we-are-btn:hover {
-  background-color: #ffffff;
-  color: #000000; }
+/*colors*/
+/*font families*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*Mixins*/
+.splash-outcomes {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 150px;
+  border: 1px solid black; }
+  .splash-outcomes .outcomes-content {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    background-color: dodgerblue; }
+    .splash-outcomes .outcomes-content h1 {
+      font-family: 'Merriweather', serif;
+      font-weight: 300;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-end;
+      height: 30%;
+      text-align: center;
+      font-size: 36px;
+      line-height: 54px;
+      padding-bottom: 12px;
+      margin-bottom: 24px; }
+    .splash-outcomes .outcomes-content .bottom-contents {
+      width: 100%;
+      height: 68%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      background-color: lime; }

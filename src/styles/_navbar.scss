@@ -4,48 +4,52 @@
   @include flexdisplay(row, center, center);
   height: 100px;
   width: 100%;
-}
+  background-color: $primarywhite;
+  position: fixed;
+  z-index: 99;
+  top: 50px;
 
-.logo-container {
-  width: 142px * 1.10;
-  height: 42px * 1.10;
-  background-image: url(./images/hack-reactor-logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.nav-links-container {
-  @include flexdisplay(row, center, center);
-  margin: 0 24px;
-}
-
-.nav-link {
-  color: $primarygrey;
-  padding: 0 12px;
-  font-family: $mainfont;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-  .fa-caret-down {
-    color: $primaryblue;
-    margin-left: 5px;
+  .logo-container {
+    width: 142px * 1.10;
+    height: 42px * 1.10;
+    background-image: url(./images/hack-reactor-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-}
 
-.nav-link:hover {
-  color: $primaryblue;
-}
+  .nav-links-container {
+    @include flexdisplay(row, center, center);
+    margin: 0 24px;
+  }
 
-.button {
-  width: 130px;
-  height: 41px;
-  @include flexdisplay(row, center, center);
-  background-color: $primaryblue;
-  border-radius: 3px;
-    p {
-      color: #ffffff;
-      font-family: $mainfont;
-      font-size: 14px;
-      line-height: 21px;
+  .nav-link {
+    color: $primarygrey;
+    padding: 0 12px;
+    font-family: $mainfont;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    .fa-caret-down {
+      color: $primaryblue;
+      margin-left: 5px;
     }
+  }
+
+  .nav-link:hover {
+    color: $primaryblue;
+  }
+
+  .button {
+    width: 130px;
+    height: 41px;
+    @include flexdisplay(row, center, center);
+    background-color: $primaryblue;
+    border-radius: 3px;
+      p {
+        color: #ffffff;
+        font-family: $mainfont;
+        font-size: 14px;
+        line-height: 21px;
+      }
+  }
 }
