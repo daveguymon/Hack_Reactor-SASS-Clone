@@ -188,8 +188,7 @@
   width: 100%;
   height: 600px;
   position: relative;
-  top: 150px;
-  border: 1px solid black; }
+  top: 150px; }
   .splash-outcomes .outcomes-content {
     height: 100%;
     width: 65%;
@@ -305,3 +304,62 @@
         background-color: white; }
         .splash-outcomes .outcomes-content .bottom-contents .bottom-right strong {
           font-weight: 600; }
+
+/*colors*/
+/*font families*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*Mixins*/
+.splash-immersive {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #00B298; }
+  .splash-immersive .prepare-immersive, .splash-immersive .onsite-immersive, .splash-immersive .remote-immersive {
+    height: 500px; }
+    .splash-immersive .prepare-immersive .immersive-header, .splash-immersive .onsite-immersive .immersive-header, .splash-immersive .remote-immersive .immersive-header {
+      font-family: 'Merriweather', serif;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 18px;
+      margin: 24px 0; }
+  .splash-immersive .immersive-img-container {
+    width: 100%;
+    height: 215px; }
+  .splash-immersive .prepare-immersive, .splash-immersive .remote-immersive {
+    width: 34%; }
+  .splash-immersive .prepare-immersive {
+    background-color: #de7c01;
+    text-align: right; }
+    .splash-immersive .prepare-immersive .img-left {
+      background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/photos/student-coding-solo.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0% 20%; }
+  .splash-immersive .immersive-left {
+    padding-right: 64px; }
+  .splash-immersive .onsite-immersive {
+    width: 32%;
+    background-color: #0090D9;
+    text-align: center; }
+    .splash-immersive .onsite-immersive .img-middle {
+      background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/photos/students-in-lecture.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0% 20%; }
+  .splash-immersive .immersive-right {
+    padding-left: 64px; }
+  .splash-immersive .remote-immersive {
+    background-color: #00B298;
+    text-align: left; }
+    .splash-immersive .remote-immersive .img-right {
+      background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/photos/laptop.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0% 20%; }

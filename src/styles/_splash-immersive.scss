@@ -1,0 +1,82 @@
+@import 'variables.scss';
+
+.splash-immersive {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 150px;
+  @include flexdisplay(row,center,center);
+  background-color: $primarygreen;
+
+  .prepare-immersive, .onsite-immersive, .remote-immersive {
+    // width: 33.33%;
+    height: 500px;
+
+    .immersive-header {
+      @include titletext(400);
+      color: $primarywhite;
+      font-size: 18px;
+      line-height: 18px;
+      margin: 24px 0;
+    }
+  }
+
+
+  .immersive-img-container {
+    width: 100%;
+    height: 215px;
+  }
+
+  .prepare-immersive, .remote-immersive {
+    width: 34%;
+  }
+
+  .prepare-immersive {
+    background-color: $primaryorange;
+    text-align: right;
+
+    .img-left {
+      background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/photos/student-coding-solo.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0% 20%;
+    }
+  }
+
+  .immersive-left {
+    padding-right: 64px;
+  }
+
+  .onsite-immersive {
+    width: 32%;
+    background-color: $primaryblue;
+    text-align: center;
+
+    .img-middle {
+      background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/photos/students-in-lecture.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0% 20%;
+    }
+  }
+
+
+  .immersive-right {
+    padding-left: 64px;
+  }
+
+  .remote-immersive {
+    background-color: $primarygreen;
+    text-align: left;
+
+    .img-right {
+      background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/photos/laptop.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0% 20%;
+    }
+  }
+
+
+
+}

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import NavbarAd from './components/NavbarAd';
 import SplashBanner from './components/SplashBanner';
 import SplashOutcomes from './components/SplashOutcomes';
+import SplashImmersive from './components/SplashImmersive';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Navbar />
         <SplashBanner />
         <SplashOutcomes />
+        <SplashImmersive />
       </div>
     );
   }
