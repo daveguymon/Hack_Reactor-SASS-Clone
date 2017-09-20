@@ -319,13 +319,33 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #00B298; }
+  color: #ffffff; }
   .splash-immersive .prepare-immersive, .splash-immersive .onsite-immersive, .splash-immersive .remote-immersive {
     height: 500px; }
+    .splash-immersive .prepare-immersive .immersive-btn, .splash-immersive .onsite-immersive .immersive-btn, .splash-immersive .remote-immersive .immersive-btn {
+      height: 41px;
+      width: 126px;
+      padding: 9px, 24px;
+      margin-top: 24px;
+      border: 1px solid #ffffff;
+      border-radius: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 24px auto; }
+      .splash-immersive .prepare-immersive .immersive-btn .learn-more, .splash-immersive .onsite-immersive .immersive-btn .learn-more, .splash-immersive .remote-immersive .immersive-btn .learn-more {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        font-size: 16px;
+        line-height: 21px; }
+    .splash-immersive .prepare-immersive .immersive-btn:hover, .splash-immersive .onsite-immersive .immersive-btn:hover, .splash-immersive .remote-immersive .immersive-btn:hover {
+      background-color: #ffffff; }
+      .splash-immersive .prepare-immersive .immersive-btn:hover .learn-more, .splash-immersive .onsite-immersive .immersive-btn:hover .learn-more, .splash-immersive .remote-immersive .immersive-btn:hover .learn-more {
+        color: #000000; }
     .splash-immersive .prepare-immersive .immersive-header, .splash-immersive .onsite-immersive .immersive-header, .splash-immersive .remote-immersive .immersive-header {
       font-family: 'Merriweather', serif;
       font-weight: 400;
-      color: #ffffff;
       font-size: 18px;
       line-height: 18px;
       margin: 24px 0; }
@@ -334,6 +354,45 @@
     height: 215px; }
   .splash-immersive .prepare-immersive, .splash-immersive .remote-immersive {
     width: 34%; }
+  .splash-immersive .immersive-text-container {
+    width: 100%;
+    padding-top: 36px; }
+    .splash-immersive .immersive-text-container p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 200; }
+  .splash-immersive .text-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; }
+    .splash-immersive .text-left p {
+      width: 275px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0 64px 0 0px; }
+  .splash-immersive .text-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .splash-immersive .text-middle p {
+      width: 275px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0 0px 0 0px; }
+  .splash-immersive .text-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; }
+    .splash-immersive .text-right p {
+      width: 275px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0 0px 0 64px; }
   .splash-immersive .prepare-immersive {
     background-color: #de7c01;
     text-align: right; }
@@ -342,6 +401,8 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 0% 20%; }
+    .splash-immersive .prepare-immersive .immersive-btn {
+      margin-right: 140px; }
   .splash-immersive .immersive-left {
     padding-right: 64px; }
   .splash-immersive .onsite-immersive {
@@ -363,3 +424,5 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 0% 20%; }
+    .splash-immersive .remote-immersive .immersive-btn {
+      margin-left: 140px; }
