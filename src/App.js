@@ -5,6 +5,7 @@ import NavbarAd from './components/NavbarAd';
 import SplashBanner from './components/SplashBanner';
 import SplashOutcomes from './components/SplashOutcomes';
 import SplashImmersive from './components/SplashImmersive';
+import SplashLocations from './components/SplashLocations';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <SplashBanner />
         <SplashOutcomes />
         <SplashImmersive />
+        <SplashLocations />
       </div>
     );
   }

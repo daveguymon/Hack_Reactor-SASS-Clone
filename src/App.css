@@ -426,3 +426,84 @@
       background-position: 0% 20%; }
     .splash-immersive .remote-immersive .immersive-btn {
       margin-left: 140px; }
+
+/*colors*/
+/*font families*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*Mixins*/
+.splash-locations {
+  width: 100%;
+  height: 405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/hero/hero-bg--lecture-b.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; }
+  .splash-locations .locations-bquote {
+    text-align: center;
+    width: 825px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px; }
+  .splash-locations .cite {
+    text-align: center;
+    width: 825px;
+    font-size: 16px;
+    line-height: 28.8px; }
+  .splash-locations .locations-container {
+    width: 780px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; }
+    .splash-locations .locations-container .location {
+      width: 195px;
+      height: 150px;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 1px solid orange; }
+    .splash-locations .locations-container .california {
+      background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/misc/maps/california.png"); }
+    .splash-locations .locations-container .texas {
+      background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/misc/maps/texas.png"); }
+    .splash-locations .locations-container .newyork {
+      background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/misc/maps/new-york.png"); }
+    .splash-locations .locations-container .remote {
+      background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/misc/maps/remote.png"); }
+      .splash-locations .locations-container .remote .remote-overlay {
+        height: 40px;
+        width: 120px;
+        border: 1px solid #00bbff;
+        border-radius: 5px;
+        background-color: rgba(0, 144, 217, 0.7);
+        position: absolute;
+        padding: 3px, 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .splash-locations .locations-container .remote .remote-overlay p {
+          font-family: 'Source Sans Pro', sans-serif;
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 16px;
+          text-align: center;
+          color: #ffffff; }
+          .splash-locations .locations-container .remote .remote-overlay p .fa-angle-right {
+            margin-left: 1px; }
