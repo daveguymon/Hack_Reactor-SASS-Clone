@@ -8,12 +8,10 @@
   background-color: rgba(0, 144, 217, .7);
   position: absolute;
   padding: 3px, 7px;
-  @include flexdisplay(column, center, center);
   p {
     @include maintext(400);
     font-size: 10px;
     line-height: 16px;
-    text-align: center;
     color: $primarywhite;
 
     .fa-angle-right {
@@ -69,14 +67,66 @@
 
     .california {
       background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/misc/maps/california.png');
+
+      .california1-overlay {
+        @include location-overlay(40px, 89px);
+        @include flexdisplay(column, center, flex-start);
+        padding-left: 7px;
+        bottom: 52px;
+        left: -14px;
+        p {
+          .fa-circle {
+            margin-left: 10px;
+          }
+        }
+      }
+
+      .california2-overlay {
+        @include location-overlay(40px, 81px);
+        @include flexdisplay(column, center, flex-start);
+        padding-left: 7px;
+        bottom: 6px;
+        left: 32px;
+        p {
+          .fa-circle {
+            margin-left: 10px;
+          }
+        }
+      }
     }
 
     .texas {
       background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/misc/maps/texas.png');
+
+      .texas-overlay {
+        @include location-overlay(40px, 68px);
+        @include flexdisplay(column, center, flex-start);
+        padding-left: 7px;
+        bottom: 34px;
+        right: 70px;
+        p {
+          .fa-circle {
+            margin-left: 18px;
+          }
+        }
+      }
     }
 
     .newyork {
       background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3030/assets/images/misc/maps/new-york.png');
+
+      .newyork-overlay {
+        @include location-overlay(40px, 90px);
+        @include flexdisplay(column, center, flex-start);
+        padding-left: 7px;
+        bottom: 0;
+        right: 55px;
+        p {
+          .fa-circle {
+            margin-left: 10px;
+          }
+        }
+      }
     }
 
     .remote {
@@ -84,6 +134,10 @@
 
       .remote-overlay {
         @include location-overlay(40px, 120px);
+        @include flexdisplay(column, center, center);
+        p {
+          text-align: center;
+        }
       }
     }
   }
