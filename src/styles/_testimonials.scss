@@ -1,0 +1,86 @@
+@import './variables.scss';
+
+
+@mixin arrow-up(){
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 12.5px solid transparent;
+  border-right: 12.5px solid transparent;
+  border-bottom: 12.5px solid $tertiarygrey;
+}
+
+@mixin arrow-down(){
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 12.5px solid transparent;
+  border-right: 12.5px solid transparent;
+  border-top: 12.5px solid $tertiarygrey;
+}
+
+.testimonials {
+  @include flexdisplay(row,center,center);
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 474px;
+  background-color: $secondarygrey;
+
+  .quote-grid {
+    height: 474px;
+    width: 323px;
+    background-color: $tertiarygrey;
+
+
+    img {
+      width: 323px;
+      height: 260px;
+    }
+
+    .testimonial-container {
+      position: relative;
+      width: 323px;
+      height: 214px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 20px 20px 25px 20px;
+      @include maintext(200);
+      @include flexdisplay(column,center,center);
+
+      .student-quote {
+        margin-bottom: 10px;
+      }
+
+      .student-name {
+        color: $primaryblue;
+      }
+    }
+  }
+
+  .testimonial-left {
+
+    .arrow-up {
+      @include arrow-up;
+      top: -16px;
+    }
+  }
+
+  .testimonial-middle {
+
+    .arrow-up {
+      @include arrow-down;
+      bottom: -12px;
+    }
+  }
+
+  .testimonial-right {
+
+    .arrow-up {
+      @include arrow-up;
+      top: -16px;
+    }
+  }
+}
