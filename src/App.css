@@ -607,6 +607,9 @@
             margin-left: 1px; }
         .splash-locations .locations-container .remote .remote-overlay p {
           text-align: center; }
+    .splash-locations .locations-container .california1-overlay:hover, .splash-locations .locations-container .california2-overlay:hover, .splash-locations .locations-container .texas-overlay:hover, .splash-locations .locations-container .newyork-overlay:hover, .splash-locations .locations-container .remote-overlay:hover {
+      background-color: rgba(222, 124, 1, 0.7);
+      border: 1px solid #ffa101; }
 
 /*colors*/
 /*font families*/

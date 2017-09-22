@@ -139,5 +139,10 @@
         }
       }
     }
+
+    .california1-overlay:hover, .california2-overlay:hover, .texas-overlay:hover, .newyork-overlay:hover, .remote-overlay:hover {
+      background-color: rgba(222, 124, 1, 0.7);
+      border: 1px solid $primaryorange * 1.3;
+    }
   }
 }
