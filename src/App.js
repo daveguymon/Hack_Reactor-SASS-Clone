@@ -7,6 +7,7 @@ import SplashOutcomes from './components/SplashOutcomes';
 import SplashImmersive from './components/SplashImmersive';
 import SplashLocations from './components/SplashLocations';
 import GetSyllabus from './components/GetSyllabus';
+import Partnerships from './components/Partnerships';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <SplashImmersive />
         <SplashLocations />
         <GetSyllabus />
+        <Partnerships />
       </div>
     );
   }
