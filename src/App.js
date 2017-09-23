@@ -9,6 +9,7 @@ import SplashLocations from './components/SplashLocations';
 import GetSyllabus from './components/GetSyllabus';
 import Partnerships from './components/Partnerships';
 import Testimonials from './components/Testimonials';
+import GraduationStats from './components/GraduationStats';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         <GetSyllabus />
         <Partnerships />
         <Testimonials />
+        <GraduationStats />
       </div>
     );
   }
