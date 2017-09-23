@@ -1,20 +1,55 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-export default function SplashBanner (props){
+export default class SplashBanner extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      display: false,
+      videoUrl: ""
+    }
+  }
 
-  return (
-    <main className="splash-banner">
-      <h1 className="splash-title-text">Don’t just Learn to Code:<br />
-      Think Like a Software Engineer</h1>
-      <h2 className="splash-subtitle-text">Reinvent Your Career in 12 weeks</h2>
-      <div className="buttons-container">
-        <div className="start-learning-btn">
-          <p>Start Learning For Free</p>
-        </div>
-        <div className="who-we-are-btn">
-          <p>See Who We Are <span><div className="play-circle"><i className="fa fa-play" aria-hidden="true"></i></div></span></p>
+  displayVideo(){
+    this.setState({
+      display: true,
+      videoUrl: "https://www.youtube.com/embed/mUmvtUKV_1w"
+    })
+  }
+
+  hideVideo(){
+    this.setState({
+      display: false,
+      videoUrl: ""
+    })
+  }
+
+
+
+  render() {
+
+    const video = {display: "none"};
+
+    return (
+      <main className="splash-banner">
+
+      <div className="transp-video-container" style={this.state.display ? null : video} onClick={this.hideVideo.bind(this)}>
+        <div className="video-container">
+          <iframe width="1366" height="713" src={this.state.videoUrl} frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
-    </main>
-  )
+
+        <h1 className="splash-title-text">Don’t just Learn to Code:<br />
+        Think Like a Software Engineer</h1>
+        <h2 className="splash-subtitle-text">Reinvent Your Career in 12 weeks</h2>
+        <div className="buttons-container">
+          <div className="start-learning-btn">
+            <p>Start Learning For Free</p>
+          </div>
+          <div className="who-we-are-btn" onClick={this.displayVideo.bind(this)}>
+            <p>See Who We Are <span><div className="play-circle"><i className="fa fa-play" aria-hidden="true"></i></div></span></p>
+          </div>
+        </div>
+      </main>
+    )
+  }
 }

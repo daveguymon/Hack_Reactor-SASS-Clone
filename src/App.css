@@ -116,6 +116,22 @@
   align-items: center;
   color: #ffffff;
   padding-top: 5px; }
+  .splash-banner .transp-video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    padding-top: 52px;
+    z-index: 105; }
+    .splash-banner .transp-video-container .video-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 80%; }
   .splash-banner .splash-title-text {
     font-family: 'Merriweather', serif;
     font-weight: 300;

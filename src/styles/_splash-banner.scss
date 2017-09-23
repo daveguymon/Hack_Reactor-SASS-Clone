@@ -13,6 +13,20 @@
   color: $primarywhite;
   padding-top: 5px;
 
+  .transp-video-container  {
+    @include flexdisplay(row,center,center);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    padding-top: 52px;
+    z-index: 105;
+
+      .video-container {
+      @include flexdisplay(row,center,center);
+      width: 80%;
+    }
+  }
+
   .splash-title-text {
     @include titletext(300);
     width: 970px;
