@@ -49,6 +49,8 @@ export default class SplashBanner extends Component {
             <p>See Who We Are <span><div className="play-circle"><i className="fa fa-play" aria-hidden="true"></i></div></span></p>
           </div>
         </div>
+
+        <img className="intercom"  src="https://ordercloud.io/wp-content/uploads/2016/08/intercom-chat-icon-6ffe4913c2a767d9314d5d9bb03092fcec74b3ed58735b3d44d12672a08ff635.png" alt="intercom launcher" />
       </main>
     )
   }

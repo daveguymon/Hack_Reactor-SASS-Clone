@@ -194,6 +194,13 @@
   .splash-banner .who-we-are-btn:hover {
     background-color: #ffffff;
     color: #000000; }
+  .splash-banner .intercom {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    z-index: 110;
+    bottom: 20px;
+    right: 20px; }
 
 /*colors*/
 /*font families*/

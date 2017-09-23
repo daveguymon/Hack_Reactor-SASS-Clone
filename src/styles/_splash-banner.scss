@@ -91,4 +91,13 @@
     background-color: $primarywhite;
     color: $primaryblack;
   }
+
+  .intercom {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    z-index: 110;
+    bottom: 20px;
+    right: 20px;
+  }
 }
