@@ -73,6 +73,8 @@
         padding-left: 7px;
         bottom: 52px;
         left: -14px;
+        transition: all .2s ease-in-out;
+
         p {
           .fa-circle {
             margin-left: 10px;
@@ -86,6 +88,8 @@
         padding-left: 7px;
         bottom: 6px;
         left: 32px;
+        transition: all .2s ease-in-out;
+
         p {
           .fa-circle {
             margin-left: 10px;
@@ -103,6 +107,8 @@
         padding-left: 7px;
         bottom: 34px;
         right: 70px;
+        transition: all .2s ease-in-out;
+
         p {
           .fa-circle {
             margin-left: 18px;
@@ -120,6 +126,8 @@
         padding-left: 7px;
         bottom: 0;
         right: 55px;
+        transition: all .2s ease-in-out;
+
         p {
           .fa-circle {
             margin-left: 10px;
@@ -134,6 +142,8 @@
       .remote-overlay {
         @include location-overlay(40px, 120px);
         @include flexdisplay(column, center, center);
+        transition: all .2s ease-in-out;
+        
         p {
           text-align: center;
         }

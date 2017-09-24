@@ -34,7 +34,7 @@ export default class SplashBanner extends Component {
 
       <div className="transp-video-container" style={this.state.display ? null : video} onClick={this.hideVideo.bind(this)}>
         <div className="video-container">
-          <iframe width="1366" height="713" src={this.state.videoUrl} frameborder="0" allowfullscreen></iframe>
+          <iframe width="1366" height="713" src={this.state.videoUrl} frameborder="0" allowfullscreen title="Hack Reactor Promo"></iframe>
         </div>
       </div>
 

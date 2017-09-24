@@ -21,12 +21,19 @@
     background-color: $primaryblue;
     border-radius: 3px;
     margin-left: 17.5px;
-      p {
-        color: #ffffff;
-        font-family: $mainfont;
-        font-size: 15px;
-        font-weight: 300;
-        line-height: 21px;
-      }
+    transition: background .2s ease-in-out;
+    
+
+    p {
+      color: #ffffff;
+      font-family: $mainfont;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 21px;
+    }
+  }
+
+  .small-button:hover {
+    background-color: $hoverblue;
   }
 }

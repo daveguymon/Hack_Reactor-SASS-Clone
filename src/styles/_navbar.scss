@@ -45,11 +45,17 @@
     @include flexdisplay(row, center, center);
     background-color: $primaryblue;
     border-radius: 3px;
-      p {
-        color: #ffffff;
-        font-family: $mainfont;
-        font-size: 14px;
-        line-height: 21px;
-      }
+    transition: background .2s ease-in-out;
+
+    p {
+      color: #ffffff;
+      font-family: $mainfont;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+
+  .button:hover {
+    background-color: $hoverblue;
   }
 }
