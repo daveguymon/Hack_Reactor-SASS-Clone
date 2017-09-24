@@ -10,6 +10,7 @@ import GetSyllabus from './components/GetSyllabus';
 import Partnerships from './components/Partnerships';
 import Testimonials from './components/Testimonials';
 import GraduationStats from './components/GraduationStats';
+import GettingAttention from './components/GettingAttention';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
         <Partnerships />
         <Testimonials />
         <GraduationStats />
+        <GettingAttention />
       </div>
     );
   }
