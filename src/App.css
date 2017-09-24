@@ -162,48 +162,48 @@
     width: 970px;
     font-size: 16px;
     line-height: 21px; }
-  .splash-banner .start-learning-btn, .splash-banner .who-we-are-btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 260px;
-    height: 41px;
-    padding: 9px 24px;
-    border-radius: 3px; }
-  .splash-banner .start-learning-btn {
-    background-color: #0090D9;
-    margin-right: 12px;
-    transition: all .2s ease-in-out; }
-  .splash-banner .start-learning-btn:hover {
-    background-color: #0097e3; }
-  .splash-banner .who-we-are-btn {
-    border: 1px solid #ffffff;
-    margin-left: 12px;
-    background-color: rgba(255, 255, 255, 0.2);
-    transition: all .2s ease-in-out; }
-    .splash-banner .who-we-are-btn p {
+    .splash-banner .buttons-container .start-learning-btn, .splash-banner .buttons-container .who-we-are-btn {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      width: 100%; }
-      .splash-banner .who-we-are-btn p .play-circle {
+      width: 260px;
+      height: 41px;
+      padding: 9px 24px;
+      border-radius: 3px; }
+    .splash-banner .buttons-container .start-learning-btn {
+      background-color: #0090D9;
+      margin-right: 12px;
+      transition: all .2s ease-in-out; }
+    .splash-banner .buttons-container .start-learning-btn:hover {
+      background-color: #0097e3; }
+    .splash-banner .buttons-container .who-we-are-btn {
+      border: 1px solid #ffffff;
+      margin-left: 12px;
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: all .2s ease-in-out; }
+      .splash-banner .buttons-container .who-we-are-btn p {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        border-radius: 999px;
-        width: 24px;
-        height: 24px;
-        border: 1px solid #ffffff;
-        padding-left: 2.5px;
-        margin-left: 8px; }
-        .splash-banner .who-we-are-btn p .play-circle .fa-play {
-          font-size: .65em; }
-  .splash-banner .who-we-are-btn:hover {
-    background-color: #ffffff;
-    color: #000000; }
+        width: 100%; }
+        .splash-banner .buttons-container .who-we-are-btn p .play-circle {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          border-radius: 999px;
+          width: 24px;
+          height: 24px;
+          border: 1px solid #ffffff;
+          padding-left: 2.5px;
+          margin-left: 8px; }
+          .splash-banner .buttons-container .who-we-are-btn p .play-circle .fa-play {
+            font-size: .65em; }
+    .splash-banner .buttons-container .who-we-are-btn:hover {
+      background-color: #ffffff;
+      color: #000000; }
   .splash-banner .intercom {
     height: 60px;
     width: 60px;
@@ -985,3 +985,71 @@
       background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3031/assets/images/photos/thumbs/white-board-drawings.jpg"); }
     .getting-attention .attention-tiles .tile4 {
       background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3031/assets/images/photos/thumbs/students-collaborating.jpg"); }
+
+/*colors*/
+/*font families*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*Mixins*/
+.experience-campus {
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3046/assets/images/hero/hero-bg--home-alt.jpg");
+  background-position: center 50%;
+  background-size: cover; }
+  .experience-campus h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 24px; }
+  .experience-campus .buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 970px;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 24px; }
+    .experience-campus .buttons-container .schedule-tour-btn, .experience-campus .buttons-container .checkout-events-btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 260px;
+      height: 41px;
+      padding: 9px 24px;
+      border-radius: 3px; }
+    .experience-campus .buttons-container .schedule-tour-btn {
+      background-color: #de7c01;
+      margin-right: 12px;
+      transition: all .2s ease-in-out; }
+    .experience-campus .buttons-container .schedule-tour-btn:hover {
+      background-color: #e88201; }
+    .experience-campus .buttons-container .checkout-events-btn {
+      border: 1px solid #ffffff;
+      margin-left: 12px;
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: all .2s ease-in-out; }
+      .experience-campus .buttons-container .checkout-events-btn p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%; }
+    .experience-campus .buttons-container .checkout-events-btn:hover {
+      background-color: #ffffff;
+      color: #000000; }

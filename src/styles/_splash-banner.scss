@@ -50,54 +50,56 @@
     width: 970px;
     font-size: 16px;
     line-height: 21px;
+
+    .start-learning-btn, .who-we-are-btn {
+      @include flexdisplay(row, center, center);
+      width: 260px;
+      height: 41px;
+      padding: 9px 24px;
+      border-radius: 3px;
+    }
+
+    .start-learning-btn {
+      background-color: $primaryblue;
+      margin-right: 12px;
+      transition: all .2s ease-in-out;
+    }
+
+    .start-learning-btn:hover {
+      background-color: $hoverblue;
+    }
+
+    .who-we-are-btn {
+      border: 1px solid $primarywhite;
+      margin-left: 12px;
+      background-color: rgba(255,255,255,.2);
+      transition: all .2s ease-in-out;
+
+        p {
+          @include flexdisplay(row, center, center);
+          width: 100%;
+            .play-circle {
+              @include flexdisplay(row, center, center);
+              border-radius: 999px;
+              width: 24px;
+              height: 24px;
+              border: 1px solid $primarywhite;
+              padding-left: 2.5px;
+              margin-left: 8px;
+                .fa-play {
+                  font-size: .65em;
+                }
+            }
+        }
+    }
+
+    .who-we-are-btn:hover {
+      background-color: $primarywhite;
+      color: $primaryblack;
+    }
   }
 
-  .start-learning-btn, .who-we-are-btn {
-    @include flexdisplay(row, center, center);
-    width: 260px;
-    height: 41px;
-    padding: 9px 24px;
-    border-radius: 3px;
-  }
 
-  .start-learning-btn {
-    background-color: $primaryblue;
-    margin-right: 12px;
-    transition: all .2s ease-in-out;
-  }
-
-  .start-learning-btn:hover {
-    background-color: $hoverblue;
-  }
-
-  .who-we-are-btn {
-    border: 1px solid $primarywhite;
-    margin-left: 12px;
-    background-color: rgba(255,255,255,.2);
-    transition: all .2s ease-in-out;
-
-      p {
-        @include flexdisplay(row, center, center);
-        width: 100%;
-          .play-circle {
-            @include flexdisplay(row, center, center);
-            border-radius: 999px;
-            width: 24px;
-            height: 24px;
-            border: 1px solid $primarywhite;
-            padding-left: 2.5px;
-            margin-left: 8px;
-              .fa-play {
-                font-size: .65em;
-              }
-          }
-      }
-  }
-
-  .who-we-are-btn:hover {
-    background-color: $primarywhite;
-    color: $primaryblack;
-  }
 
   .intercom {
     height: 60px;

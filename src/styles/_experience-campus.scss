@@ -1,0 +1,67 @@
+@import './variables.scss';
+
+.experience-campus {
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 395px;
+  @include flexdisplay(column,center,center);
+  background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3046/assets/images/hero/hero-bg--home-alt.jpg');
+  background-position: center 50%;
+  background-size: cover;
+
+  h1 {
+    @include titletext(300);
+    color: $primarywhite;
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .buttons-container {
+    @include flexdisplay(row, center, center);
+    width: 970px;
+    font-size: 16px;
+    line-height: 21px;
+    @include maintext(400);
+    color: $primarywhite;
+    margin-top: 24px;
+
+    .schedule-tour-btn, .checkout-events-btn {
+      @include flexdisplay(row, center, center);
+      width: 260px;
+      height: 41px;
+      padding: 9px 24px;
+      border-radius: 3px;
+    }
+
+    .schedule-tour-btn {
+      background-color: $primaryorange;
+      margin-right: 12px;
+      transition: all .2s ease-in-out;
+    }
+
+    .schedule-tour-btn:hover {
+      background-color: #e88201;
+    }
+
+    .checkout-events-btn {
+      border: 1px solid $primarywhite;
+      margin-left: 12px;
+      background-color: rgba(255,255,255,.2);
+      transition: all .2s ease-in-out;
+
+        p {
+          @include flexdisplay(row, center, center);
+          width: 100%;
+        }
+      }
+
+      .checkout-events-btn:hover {
+        background-color: $primarywhite;
+        color: $primaryblack;
+      }
+    }
+}
