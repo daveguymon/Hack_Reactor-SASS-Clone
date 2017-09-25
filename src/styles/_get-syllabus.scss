@@ -32,6 +32,7 @@
       background-color: $secondarygrey;
       @include maintext(200);
       font-size: 14px;
+      border: 1px solid $primarywhite;
     }
 
       .submit-email {

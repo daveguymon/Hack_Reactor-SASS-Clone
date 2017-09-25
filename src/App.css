@@ -170,7 +170,7 @@
       width: 260px;
       height: 41px;
       padding: 9px 24px;
-      border-radius: 3px; }
+      border-radius: 2px; }
     .splash-banner .buttons-container .start-learning-btn {
       background-color: #0090D9;
       margin-right: 12px;
@@ -203,7 +203,8 @@
             font-size: .65em; }
     .splash-banner .buttons-container .who-we-are-btn:hover {
       background-color: #ffffff;
-      color: #000000; }
+      color: #000000;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px; }
   .splash-banner .intercom {
     height: 60px;
     width: 60px;
@@ -364,8 +365,9 @@
       border: 1px solid #ffffff;
       border-radius: 2px;
       display: flex;
-      align-items: center;
+      flex-direction: row;
       justify-content: center;
+      align-items: center;
       margin: 24px auto;
       transition: all .2s ease-in-out; }
       .splash-immersive .prepare-immersive .immersive-btn .learn-more, .splash-immersive .onsite-immersive .immersive-btn .learn-more, .splash-immersive .remote-immersive .immersive-btn .learn-more {
@@ -375,7 +377,8 @@
         font-size: 16px;
         line-height: 21px; }
     .splash-immersive .prepare-immersive .immersive-btn:hover, .splash-immersive .onsite-immersive .immersive-btn:hover, .splash-immersive .remote-immersive .immersive-btn:hover {
-      background-color: #ffffff; }
+      background-color: #ffffff;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px; }
       .splash-immersive .prepare-immersive .immersive-btn:hover .learn-more, .splash-immersive .onsite-immersive .immersive-btn:hover .learn-more, .splash-immersive .remote-immersive .immersive-btn:hover .learn-more {
         color: #000000; }
     .splash-immersive .prepare-immersive .immersive-header, .splash-immersive .onsite-immersive .immersive-header, .splash-immersive .remote-immersive .immersive-header {
@@ -691,7 +694,8 @@
       background-color: #e2e2e2;
       font-family: 'Source Sans Pro', sans-serif;
       font-weight: 200;
-      font-size: 14px; }
+      font-size: 14px;
+      border: 1px solid #ffffff; }
     .get-syllabus .get-syllabus-content .submit-email {
       display: flex;
       flex-direction: row;
@@ -1107,3 +1111,97 @@
         text-align: center; }
     .in-the-news .news-content-container .thumbnail-cnbc, .in-the-news .news-content-container .thumbnail-bloomberg, .in-the-news .news-content-container .thumbnail-techcrunch {
       border-right: solid 1px #e2e2e2; }
+
+/*colors*/
+/*font families*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*Mixins*/
+.footer {
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 485px;
+  background-color: #0090D9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+  .footer .footer-top {
+    width: 970px;
+    height: 116px;
+    border-bottom: 1px solid #00bbff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0 24px 0; }
+    .footer .footer-top .footer-logo-container {
+      width: 485px;
+      height: 47px;
+      background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3046/assets/images/logo/hack-reactor-logo--white.png");
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .footer .footer-top .footer-signup-container {
+      width: 485px;
+      height: 72px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start; }
+      .footer .footer-top .footer-signup-container p {
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        text-align: left; }
+      .footer .footer-top .footer-signup-container span {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 485px;
+        height: 72px;
+        margin-top: 12px; }
+        .footer .footer-top .footer-signup-container span input {
+          width: 328px;
+          height: 34px;
+          margin: 0 15px 0 0;
+          padding: 0 20px;
+          border-radius: 2px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 1px inset;
+          background-color: #e2e2e2;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-weight: 200;
+          font-size: 14px;
+          border: 1px solid #ffffff; }
+        .footer .footer-top .footer-signup-container span .footer-email-btn {
+          width: 141px;
+          height: 36px;
+          border: 1px solid #ffffff;
+          border-radius: 2px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+          transition: all .2s ease-in-out; }
+          .footer .footer-top .footer-signup-container span .footer-email-btn .signup-btn-text {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+            text-align: center;
+            font-size: 14px; }
+        .footer .footer-top .footer-signup-container span .footer-email-btn:hover {
+          background-color: #ffffff;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px; }
+          .footer .footer-top .footer-signup-container span .footer-email-btn:hover .signup-btn-text {
+            color: #000000; }
+  .footer .footer-middle {
+    width: 970px;
+    height: 305px; }
+  .footer .footer-bottom {
+    width: 100%;
+    height: 63px;
+    border-top: 1px solid #00bbff;
+    background-color: #0078b5; }

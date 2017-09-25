@@ -56,7 +56,7 @@
       width: 260px;
       height: 41px;
       padding: 9px 24px;
-      border-radius: 3px;
+      border-radius: 2px;
     }
 
     .start-learning-btn {
@@ -96,6 +96,7 @@
     .who-we-are-btn:hover {
       background-color: $primarywhite;
       color: $primaryblack;
+      box-shadow: rgba(0,0,0,0.2) 0px 1px 2px 0px;
     }
   }
 

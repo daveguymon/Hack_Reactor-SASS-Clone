@@ -26,12 +26,10 @@
       margin-top: 24px;
       border: 1px solid $primarywhite;
       border-radius: 2px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flexdisplay(row,center,center);
       margin: 24px auto;
       transition: all .2s ease-in-out;
-      
+
 
         .learn-more {
           @include maintext(600);
@@ -43,6 +41,7 @@
 
     .immersive-btn:hover {
       background-color: $primarywhite;
+      box-shadow: rgba(0,0,0,0.2) 0px 1px 2px 0px;
 
         .learn-more {
           color: $primaryblack;
