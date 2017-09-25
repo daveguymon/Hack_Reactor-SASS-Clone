@@ -12,6 +12,7 @@ import Testimonials from './components/Testimonials';
 import GraduationStats from './components/GraduationStats';
 import GettingAttention from './components/GettingAttention';
 import ExperienceCampus from './components/ExperienceCampus';
+import InTheNews from './components/InTheNews';
 
 class App extends Component {
   render() {
@@ -29,6 +30,7 @@ class App extends Component {
         <GraduationStats />
         <GettingAttention />
         <ExperienceCampus />
+        <InTheNews />
       </div>
     );
   }
