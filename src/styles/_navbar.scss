@@ -20,23 +20,79 @@
   .nav-links-container {
     @include flexdisplay(row, center, center);
     margin: 0 24px;
-  }
 
-  .nav-link {
-    color: $primarygrey;
-    padding: 0 12px;
-    font-family: $mainfont;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
-    .fa-caret-down {
-      color: $primaryblue;
-      margin-left: 5px;
+    .nav-link {
+      color: $primarygrey;
+      padding: 0 12px;
+      font-family: $mainfont;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+      .fa-caret-down {
+        color: $primaryblue;
+        margin-left: 5px;
+      }
     }
-  }
 
-  .nav-link:hover {
-    color: $primaryblue;
+    .nav-link:hover {
+      color: $primaryblue;
+    }
+
+    .dropdown {
+      background-color: $primarywhite;
+      border-top: 2px solid $primaryblue;
+      border-radius: 2px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
+      padding: 30px 25px;
+      font-size: 14px;
+      line-height: 24px;
+      font-family: $mainfont;
+
+      .dropdown-section-header {
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+      }
+
+      .dropdown-section-header:hover {
+        background-color: $primarywhite;
+        padding-left: 7px;
+      }
+
+      .first-link {
+        border-top: 1px solid $secondarygrey;
+      }
+
+      p {
+        width: 300px;
+        height: 44px;
+        padding: 10px 0 10px 7px;
+        @include maintext(200);
+        transition: all .2s ease-in-out;
+      }
+
+      p:hover {
+        background-color: $hovergrey;
+        padding-left: 15px;
+      }
+    }
+
+    .onsite-dropdown {
+      position: absolute;
+      top: 100px;
+      left: 425px;
+      width: 350px;
+      height: 459px;
+
+      .onsite-bridge {
+        width: 72px;
+        height: 75px;
+        position: absolute;
+        top: -50px;
+        left: 0px;
+        background-color: transparent;
+      }
+    }
   }
 
   .button {
