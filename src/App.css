@@ -48,7 +48,6 @@
       border-top: 2px solid #0090D9;
       border-radius: 2px;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
-      padding: 30px 25px;
       font-size: 14px;
       line-height: 24px;
       font-family: "Source Sans Pro", sans-serif; }
@@ -62,7 +61,6 @@
       .navbar .nav-links-container .dropdown .first-link {
         border-top: 1px solid #e2e2e2; }
       .navbar .nav-links-container .dropdown p {
-        width: 300px;
         height: 44px;
         padding: 10px 0 10px 7px;
         font-family: 'Source Sans Pro', sans-serif;
@@ -76,7 +74,10 @@
       top: 100px;
       left: 425px;
       width: 350px;
-      height: 459px; }
+      height: 459px;
+      padding: 30px 25px; }
+      .navbar .nav-links-container .onsite-dropdown p {
+        width: 300px; }
       .navbar .nav-links-container .onsite-dropdown .onsite-bridge {
         width: 72px;
         height: 75px;
@@ -84,6 +85,44 @@
         top: -50px;
         left: 0px;
         background-color: transparent; }
+    .navbar .nav-links-container .online-dropdown {
+      position: absolute;
+      top: 100px;
+      left: 505px;
+      width: 245px;
+      height: 165px;
+      padding: 15px 30px; }
+      .navbar .nav-links-container .online-dropdown p {
+        width: 185px; }
+      .navbar .nav-links-container .online-dropdown .online-bridge {
+        width: 72px;
+        height: 75px;
+        position: absolute;
+        top: -50px;
+        left: 0px;
+        background-color: transparent; }
+    .navbar .nav-links-container .prepare-dropdown, .navbar .nav-links-container .partnerships-dropdown, .navbar .nav-links-container .outcomes-dropdown, .navbar .nav-links-container .events-dropdown {
+      position: absolute;
+      top: 100px;
+      left: 580px;
+      width: 245px;
+      height: 121px;
+      padding: 15px 30px; }
+      .navbar .nav-links-container .prepare-dropdown p, .navbar .nav-links-container .partnerships-dropdown p, .navbar .nav-links-container .outcomes-dropdown p, .navbar .nav-links-container .events-dropdown p {
+        width: 185px; }
+      .navbar .nav-links-container .prepare-dropdown .prepare-bridge, .navbar .nav-links-container .prepare-dropdown .partnerships-bridge, .navbar .nav-links-container .prepare-dropdown .outcomes-bridge, .navbar .nav-links-container .prepare-dropdown .events-bridge, .navbar .nav-links-container .partnerships-dropdown .prepare-bridge, .navbar .nav-links-container .partnerships-dropdown .partnerships-bridge, .navbar .nav-links-container .partnerships-dropdown .outcomes-bridge, .navbar .nav-links-container .partnerships-dropdown .events-bridge, .navbar .nav-links-container .outcomes-dropdown .prepare-bridge, .navbar .nav-links-container .outcomes-dropdown .partnerships-bridge, .navbar .nav-links-container .outcomes-dropdown .outcomes-bridge, .navbar .nav-links-container .outcomes-dropdown .events-bridge, .navbar .nav-links-container .events-dropdown .prepare-bridge, .navbar .nav-links-container .events-dropdown .partnerships-bridge, .navbar .nav-links-container .events-dropdown .outcomes-bridge, .navbar .nav-links-container .events-dropdown .events-bridge {
+        width: 72px;
+        height: 75px;
+        position: absolute;
+        top: -50px;
+        left: 0px;
+        background-color: transparent; }
+    .navbar .nav-links-container .partnerships-dropdown {
+      left: 660px; }
+    .navbar .nav-links-container .outcomes-dropdown {
+      left: 765px; }
+    .navbar .nav-links-container .events-dropdown {
+      left: 860px; }
   .navbar .button {
     width: 130px;
     height: 41px;

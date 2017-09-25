@@ -1,4 +1,13 @@
 @import 'variables.scss';
+@mixin navbridge {
+  width: 72px;
+  height: 75px;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  background-color: transparent;
+}
+
 
 .navbar {
   @include flexdisplay(row, center, center);
@@ -43,7 +52,6 @@
       border-top: 2px solid $primaryblue;
       border-radius: 2px;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
-      padding: 30px 25px;
       font-size: 14px;
       line-height: 24px;
       font-family: $mainfont;
@@ -64,7 +72,6 @@
       }
 
       p {
-        width: 300px;
         height: 44px;
         padding: 10px 0 10px 7px;
         @include maintext(200);
@@ -83,16 +90,63 @@
       left: 425px;
       width: 350px;
       height: 459px;
+      padding: 30px 25px;
+
+      p {
+        width: 300px;
+      }
 
       .onsite-bridge {
-        width: 72px;
-        height: 75px;
-        position: absolute;
-        top: -50px;
-        left: 0px;
-        background-color: transparent;
+        @include navbridge;
       }
     }
+
+    .online-dropdown {
+      position: absolute;
+      top: 100px;
+      left: 505px;
+      width: 245px;
+      height: 165px;
+      padding: 15px 30px;
+
+      p {
+        width: 185px;
+      }
+
+      .online-bridge {
+        @include navbridge;
+      }
+    }
+
+    .prepare-dropdown, .partnerships-dropdown, .outcomes-dropdown, .events-dropdown {
+      position: absolute;
+      top: 100px;
+      left: 580px;
+      width: 245px;
+      height: 121px;
+      padding: 15px 30px;
+
+      p {
+        width: 185px;
+      }
+
+      .prepare-bridge, .partnerships-bridge, .outcomes-bridge, .events-bridge {
+        @include navbridge;
+      }
+    }
+
+    .partnerships-dropdown {
+      left: 660px;
+    }
+
+    .outcomes-dropdown {
+      left: 765px;
+    }
+
+    .events-dropdown {
+      left: 860px;
+    }
+
   }
 
   .button {
