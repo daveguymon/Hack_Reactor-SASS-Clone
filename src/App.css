@@ -211,7 +211,9 @@
     position: fixed;
     z-index: 110;
     bottom: 20px;
-    right: 20px; }
+    right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 1px;
+    border-radius: 50%; }
 
 /*colors*/
 /*font families*/
@@ -1204,4 +1206,102 @@
     width: 100%;
     height: 63px;
     border-top: 1px solid #00bbff;
-    background-color: #0078b5; }
+    background-color: #0078b5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .footer .footer-bottom .footer-bottom-content {
+      height: 63px;
+      width: 970px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      line-height: 14px;
+      color: #ffffff;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 200; }
+      .footer .footer-bottom .footer-bottom-content p span {
+        margin: 0px 10px; }
+  .footer .footer-middle {
+    width: 970px;
+    height: 305px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .footer .footer-middle .footer-students {
+      width: 219px; }
+    .footer .footer-middle .footer-company, .footer .footer-middle .footer-more {
+      width: 224px; }
+    .footer .footer-middle .footer-review-social {
+      width: 301px; }
+    .footer .footer-middle .footer-nav {
+      color: #ffffff;
+      height: 233px;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 200;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start; }
+      .footer .footer-middle .footer-nav .column-main-link {
+        font-weight: 400;
+        padding-top: 0px; }
+      .footer .footer-middle .footer-nav .column-main-link:hover {
+        margin-left: 0px; }
+      .footer .footer-middle .footer-nav p {
+        padding-top: 18px;
+        transition: all .2s ease-in-out; }
+      .footer .footer-middle .footer-nav p:hover {
+        margin-left: 8px; }
+      .footer .footer-middle .footer-nav .footer-social {
+        margin-top: 40px; }
+      .footer .footer-middle .footer-nav .footer-social .footer-horizontal-links, .footer .footer-middle .footer-nav .footer-reviews .footer-horizontal-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 301px;
+        height: 24px; }
+        .footer .footer-middle .footer-nav .footer-social .footer-horizontal-links .google-link-container, .footer .footer-middle .footer-nav .footer-reviews .footer-horizontal-links .google-link-container {
+          width: 67px; }
+          .footer .footer-middle .footer-nav .footer-social .footer-horizontal-links .google-link-container p:hover, .footer .footer-middle .footer-nav .footer-reviews .footer-horizontal-links .google-link-container p:hover {
+            margin-left: 6px; }
+        .footer .footer-middle .footer-nav .footer-social .footer-horizontal-links .yelp-link-container, .footer .footer-middle .footer-nav .footer-reviews .footer-horizontal-links .yelp-link-container {
+          width: 47px; }
+          .footer .footer-middle .footer-nav .footer-social .footer-horizontal-links .yelp-link-container p:hover, .footer .footer-middle .footer-nav .footer-reviews .footer-horizontal-links .yelp-link-container p:hover {
+            margin-left: 6px; }
+        .footer .footer-middle .footer-nav .footer-social .footer-horizontal-links .switchup-link-container, .footer .footer-middle .footer-nav .footer-reviews .footer-horizontal-links .switchup-link-container {
+          width: 87px; }
+          .footer .footer-middle .footer-nav .footer-social .footer-horizontal-links .switchup-link-container p:hover, .footer .footer-middle .footer-nav .footer-reviews .footer-horizontal-links .switchup-link-container p:hover {
+            margin-left: 6px; }
+        .footer .footer-middle .footer-nav .footer-social .footer-horizontal-links .coursereport-link-container, .footer .footer-middle .footer-nav .footer-reviews .footer-horizontal-links .coursereport-link-container {
+          width: 100px; }
+          .footer .footer-middle .footer-nav .footer-social .footer-horizontal-links .coursereport-link-container p:hover, .footer .footer-middle .footer-nav .footer-reviews .footer-horizontal-links .coursereport-link-container p:hover {
+            margin-left: 6px; }
+      .footer .footer-middle .footer-nav .footer-social .social-circles-container, .footer .footer-middle .footer-nav .footer-reviews .social-circles-container {
+        width: 301px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+      .footer .footer-middle .footer-nav .footer-social .social-circle, .footer .footer-middle .footer-nav .footer-reviews .social-circle {
+        width: 35px;
+        height: 35px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18px;
+        transition: all .2s ease-in-out; }
+      .footer .footer-middle .footer-nav .footer-social .social-circle:hover, .footer .footer-middle .footer-nav .footer-reviews .social-circle:hover {
+        background-color: #ffffff;
+        color: #0090D9; }

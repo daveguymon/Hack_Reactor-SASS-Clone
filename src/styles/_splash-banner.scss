@@ -100,8 +100,6 @@
     }
   }
 
-
-
   .intercom {
     height: 60px;
     width: 60px;
@@ -109,5 +107,7 @@
     z-index: 110;
     bottom: 20px;
     right: 20px;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 5px 1px;
+    border-radius: 50%;
   }
 }
