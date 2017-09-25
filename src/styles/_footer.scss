@@ -203,6 +203,11 @@
         .social-circles-container {
           width: 301px;
           @include flexdisplay(row,space-between,center);
+
+          a {
+            text-decoration: none;
+            color: $primarywhite;
+          }
         }
 
         .social-circle {

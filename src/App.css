@@ -1290,6 +1290,9 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center; }
+        .footer .footer-middle .footer-nav .footer-social .social-circles-container a, .footer .footer-middle .footer-nav .footer-reviews .social-circles-container a {
+          text-decoration: none;
+          color: #ffffff; }
       .footer .footer-middle .footer-nav .footer-social .social-circle, .footer .footer-middle .footer-nav .footer-reviews .social-circle {
         width: 35px;
         height: 35px;

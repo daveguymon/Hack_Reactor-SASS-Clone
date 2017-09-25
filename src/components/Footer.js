@@ -86,20 +86,31 @@ export default class Footer extends Component{
             <div className="footer-social">
               <p className="column-main-link">SOCIAL</p>
               <div className="social-circles-container">
+
+                <a href="https://www.facebook.com/hackreactor" target="_blank" rel="noopener noreferrer">
                 <div className="social-circle"><i className="fa fa-facebook" aria-hidden="true"></i>
                 </div>
+                </a>
 
+                <a href="https://twitter.com/hackreactor" target="_blank" rel="noopener noreferrer">
                 <div className="social-circle"><i className="fa fa-twitter" aria-hidden="true"></i>
                 </div>
+                </a>
 
+                <a href="https://www.youtube.com/channel/UCHJFC4Ad1VokRmkzY7RfbDQ" target="_blank" rel="noopener noreferrer">
                 <div className="social-circle"><i className="fa fa-youtube-square" aria-hidden="true"></i>
                 </div>
+                </a>
 
+                <a href="https://www.instagram.com/hackreactor/" target="_blank" rel="noopener noreferrer">
                 <div className="social-circle"><i className="fa fa-instagram" aria-hidden="true"></i>
                 </div>
+                </a>
 
+                <a href="https://www.linkedin.com/school/3032535/" target="_blank" rel="noopener noreferrer">
                 <div className="social-circle"><i className="fa fa-linkedin" aria-hidden="true"></i>
                 </div>
+                </a>
 
               </div>
             </div>
