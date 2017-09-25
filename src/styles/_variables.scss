@@ -1,3 +1,18 @@
+/*BEGIN PROJECT HOME*/
+$secondaryblack: #181818;
+$portfoliogreen: #4ACAA8;
+$sasspink: #CC6A9B;
+
+@mixin projecthomefont($weight){
+  font-weight: $weight;
+}
+/*font weights include 400, 700*/
+
+/*END PROJECT HOME*/
+
+
+/*BEGIN HACK REACTOR*/
+
 /*colors*/
 $primaryblack: #000000;
 $primarygrey: #7c7c7c;
@@ -12,16 +27,11 @@ $secondarygrey: #e2e2e2;
 $tertiarygrey: #d0d0d0;
 $hovergrey: #f9f9f9;
 
-
-/*font families*/
 $mainfont: 'Source Sans Pro', sans-serif;
 /*font weights include 200, 300, 400, 600*/
-
 $titletext: 'Merriweather', serif;
 /*font weights include 300, 400*/
 
-
-/*Mixins*/
 @mixin flexdisplay($direction, $justify, $align){
   display: flex;
   flex-direction: $direction;
@@ -38,3 +48,5 @@ $titletext: 'Merriweather', serif;
   font-family: 'Merriweather', serif;
   font-weight: $weight;
 }
+
+/*END HACK REACTOR*/

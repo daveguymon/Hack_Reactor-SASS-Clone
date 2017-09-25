@@ -1,13 +1,99 @@
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
+.project-home {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .project-home .project-contents {
+    width: 1100px;
+    min-height: 90vh;
+    background-color: #181818; }
+    .project-home .project-contents header {
+      width: 95%;
+      height: 200px;
+      margin: 0 auto;
+      border-bottom: 1px solid #CC6A9B;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      .project-home .project-contents header .sass-logo {
+        width: 20%;
+        height: 200px;
+        background-image: url("http://www.unixstickers.com/image/data/stickers/sass/sass.sh.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
+      .project-home .project-contents header .project-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end; }
+        .project-home .project-contents header .project-title h1 {
+          font-weight: 700;
+          color: #ffffff;
+          font-size: 44px;
+          line-height: 60px; }
+        .project-home .project-contents header .project-title p {
+          font-weight: 400;
+          color: #ffffff;
+          font-size: 20px; }
+    .project-home .project-contents .thumbnail-container {
+      width: 1100px;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 50px 0px; }
+      .project-home .project-contents .thumbnail-container .homepage-thumbnail {
+        width: 900px;
+        height: 343px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 64px;
+        position: relative; }
+        .project-home .project-contents .thumbnail-container .homepage-thumbnail .thumbnail-overlay {
+          width: 900px;
+          height: 343px;
+          margin-bottom: 16px;
+          background-color: #181818;
+          background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3046/assets/images/logo/hack-reactor-logo--white.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          transition: all .2s ease-in-out; }
+        .project-home .project-contents .thumbnail-container .homepage-thumbnail .thumbnail-overlay:hover {
+          background-color: transparent;
+          background-image: none; }
+      .project-home .project-contents .thumbnail-container .hack-reactor {
+        background-image: url("./images/hack-reactor-homepage.png"); }
+
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
+/*colors*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*END HACK REACTOR*/
 .navbar {
   display: flex;
   flex-direction: row;
@@ -141,11 +227,14 @@
   .navbar .button:hover {
     background-color: #0097e3; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .navbar-ad {
   display: flex;
   flex-direction: row;
@@ -182,11 +271,14 @@
   .navbar-ad .small-button:hover {
     background-color: #0097e3; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .splash-banner {
   width: 100%;
   height: 450px;
@@ -295,11 +387,14 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 1px;
     border-radius: 50%; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .splash-outcomes {
   width: 100%;
   height: 600px;
@@ -422,11 +517,14 @@
         .splash-outcomes .outcomes-content .bottom-contents .bottom-right strong {
           font-weight: 600; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .splash-immersive {
   width: 100%;
   height: 500px;
@@ -547,11 +645,14 @@
     .splash-immersive .remote-immersive .immersive-btn {
       margin-left: 140px; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .splash-locations {
   width: 100%;
   height: 405px;
@@ -736,11 +837,14 @@
       background-color: rgba(222, 124, 1, 0.7);
       border: 1px solid #ffa101; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .get-syllabus {
   display: flex;
   flex-direction: column;
@@ -804,11 +908,14 @@
       width: 665px;
       margin-top: 4px; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .partnerships {
   display: flex;
   flex-direction: column;
@@ -862,11 +969,14 @@
     .partnerships .partnerships-btn:hover p {
       color: #ffffff; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .company-logo-card {
   width: 166px;
   height: 99px;
@@ -877,11 +987,14 @@
     width: 100%;
     height: 100%; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .testimonials {
   display: flex;
   flex-direction: row;
@@ -943,11 +1056,14 @@
     border-bottom: 12.5px solid #d0d0d0;
     top: -16px; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .graduation-stats {
   position: relative;
   top: 150px;
@@ -988,11 +1104,14 @@
           font-weight: 200;
           font-size: 16px; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .getting-attention {
   position: relative;
   top: 150px;
@@ -1072,11 +1191,14 @@
     .getting-attention .attention-tiles .tile4 {
       background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3031/assets/images/photos/thumbs/students-collaborating.jpg"); }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .experience-campus {
   position: relative;
   top: 150px;
@@ -1140,11 +1262,14 @@
       background-color: #ffffff;
       color: #000000; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .in-the-news {
   position: relative;
   top: 150px;
@@ -1194,11 +1319,14 @@
     .in-the-news .news-content-container .thumbnail-cnbc, .in-the-news .news-content-container .thumbnail-bloomberg, .in-the-news .news-content-container .thumbnail-techcrunch {
       border-right: solid 1px #e2e2e2; }
 
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
 /*colors*/
-/*font families*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
-/*Mixins*/
+/*END HACK REACTOR*/
 .footer {
   position: relative;
   top: 150px;

@@ -1,0 +1,85 @@
+@import './variables.scss';
+
+.project-home {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $primaryblack;
+  @include flexdisplay(row,center,center);
+
+  .project-contents {
+    width: 1100px;
+    min-height: 90vh;
+    background-color: $secondaryblack;
+
+    header {
+      width: 95%;
+      height: 200px;
+      margin: 0 auto;
+      border-bottom: 1px solid $sasspink;
+      @include flexdisplay(row,space-between,center);
+
+      .sass-logo {
+        width: 20%;
+        height: 200px;
+        background-image: url('http://www.unixstickers.com/image/data/stickers/sass/sass.sh.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .project-title {
+        @include flexdisplay(column,center,flex-end);
+
+        h1 {
+          @include projecthomefont(700);
+          color: $primarywhite;
+          font-size: 44px;
+          line-height: 60px;
+        }
+
+        p {
+          @include projecthomefont(400);
+          color: $primarywhite;
+          font-size: 20px;
+        }
+      }
+    }
+
+      .thumbnail-container {
+        width: 1100px;
+        min-height: 100%;
+        @include flexdisplay(column,center,center);
+        margin: 50px 0px;
+
+        .homepage-thumbnail {
+          width: 900px;
+          height: 343px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-bottom: 64px;
+          position: relative;
+
+          .thumbnail-overlay {
+            width: 900px;
+            height: 343px;
+            margin-bottom: 16px;
+            background-color: $secondaryblack;
+            background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3046/assets/images/logo/hack-reactor-logo--white.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: all .2s ease-in-out;
+          }
+
+          .thumbnail-overlay:hover {
+            background-color: transparent;
+            background-image: none;
+          }
+      }
+
+      .hack-reactor {
+        background-image: url('./images/hack-reactor-homepage.png');
+
+      }
+    }
+  }
+}
