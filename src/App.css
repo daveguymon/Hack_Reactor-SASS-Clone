@@ -8,75 +8,61 @@
 /*END HACK REACTOR*/
 .project-home {
   width: 100%;
-  min-height: 100vh;
-  background-color: #000000;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-  .project-home .project-contents {
-    width: 1100px;
-    min-height: 90vh;
-    background-color: #181818; }
-    .project-home .project-contents header {
-      width: 95%;
-      height: 200px;
-      margin: 0 auto;
-      border-bottom: 1px solid #CC6A9B;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center; }
-      .project-home .project-contents header .sass-logo {
-        width: 20%;
-        height: 200px;
-        background-image: url("http://www.unixstickers.com/image/data/stickers/sass/sass.sh.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center; }
-      .project-home .project-contents header .project-title {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end; }
-        .project-home .project-contents header .project-title h1 {
-          font-weight: 700;
-          color: #ffffff;
-          font-size: 44px;
-          line-height: 60px; }
-        .project-home .project-contents header .project-title p {
-          font-weight: 400;
-          color: #ffffff;
-          font-size: 20px; }
-    .project-home .project-contents .thumbnail-container {
-      width: 1100px;
-      min-height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 50px 0px; }
-      .project-home .project-contents .thumbnail-container .homepage-thumbnail {
-        width: 900px;
-        height: 343px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-bottom: 64px;
-        position: relative; }
-        .project-home .project-contents .thumbnail-container .homepage-thumbnail .thumbnail-overlay {
-          width: 900px;
-          height: 343px;
-          margin-bottom: 16px;
-          background-color: #181818;
-          background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3046/assets/images/logo/hack-reactor-logo--white.png");
-          background-repeat: no-repeat;
-          background-position: center;
-          transition: all .2s ease-in-out; }
-        .project-home .project-contents .thumbnail-container .homepage-thumbnail .thumbnail-overlay:hover {
-          background-color: transparent;
-          background-image: none; }
-      .project-home .project-contents .thumbnail-container .hack-reactor {
-        background-image: url("./images/hack-reactor-homepage.png"); }
+  min-height: 100vh; }
+  .project-home header {
+    width: 1200px;
+    height: 100px;
+    border-bottom: 2px solid #F3F5F6;
+    border-left: 2px solid #F3F5F6;
+    margin: 30px auto 0px auto;
+    position: relative; }
+    .project-home header img {
+      width: 150px;
+      height: auto;
+      position: absolute;
+      left: 35px;
+      top: 20px; }
+    .project-home header p {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      color: #6F818D;
+      font-family: "Source Sans Pro", sans-serif; }
+      .project-home header p span:hover {
+        color: #CC6A9B; }
+  .project-home .project-description {
+    width: 1200px;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    margin: 50px auto;
+    color: #6F818D;
+    border-bottom: 2px solid #F3F5F6;
+    padding-bottom: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400; }
+    .project-home .project-description span:hover {
+      color: #CC6A9B; }
+  .project-home .projects {
+    width: 1200px;
+    height: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  .project-home .thumbnail-container {
+    width: 520px;
+    height: 290px;
+    margin: 0px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 2px 0px; }
+  .project-home .hack-reactor-project {
+    background-image: url("./images/hack-reactor-homepage.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
 
 /*BEGIN PROJECT HOME*/
 /*font weights include 400, 700*/

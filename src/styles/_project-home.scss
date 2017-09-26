@@ -3,83 +3,72 @@
 .project-home {
   width: 100%;
   min-height: 100vh;
-  background-color: $primaryblack;
-  @include flexdisplay(row,center,center);
 
-  .project-contents {
-    width: 1100px;
-    min-height: 90vh;
-    background-color: $secondaryblack;
+  header {
+    width: 1200px;
+    height: 100px;
+    border-bottom: 2px solid $homepagegrey;
+    border-left: 2px solid $homepagegrey;
+    margin: 30px auto 0px auto;
+    position: relative;
 
-    header {
-      width: 95%;
-      height: 200px;
-      margin: 0 auto;
-      border-bottom: 1px solid $sasspink;
-      @include flexdisplay(row,space-between,center);
-
-      .sass-logo {
-        width: 20%;
-        height: 200px;
-        background-image: url('http://www.unixstickers.com/image/data/stickers/sass/sass.sh.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-      }
-
-      .project-title {
-        @include flexdisplay(column,center,flex-end);
-
-        h1 {
-          @include projecthomefont(700);
-          color: $primarywhite;
-          font-size: 44px;
-          line-height: 60px;
-        }
-
-        p {
-          @include projecthomefont(400);
-          color: $primarywhite;
-          font-size: 20px;
-        }
-      }
+    img {
+      width: 150px;
+      height: auto;
+      position: absolute;
+      left: 35px;
+      top: 20px;
     }
 
-      .thumbnail-container {
-        width: 1100px;
-        min-height: 100%;
-        @include flexdisplay(column,center,center);
-        margin: 50px 0px;
+    p {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      color: $homepagetextgrey;
+      font-family: $mainfont;
 
-        .homepage-thumbnail {
-          width: 900px;
-          height: 343px;
-          background-size: contain;
-          background-repeat: no-repeat;
-          margin-bottom: 64px;
-          position: relative;
-
-          .thumbnail-overlay {
-            width: 900px;
-            height: 343px;
-            margin-bottom: 16px;
-            background-color: $secondaryblack;
-            background-image: url('https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3046/assets/images/logo/hack-reactor-logo--white.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            transition: all .2s ease-in-out;
-          }
-
-          .thumbnail-overlay:hover {
-            background-color: transparent;
-            background-image: none;
-          }
-      }
-
-      .hack-reactor {
-        background-image: url('./images/hack-reactor-homepage.png');
-
+      span:hover {
+        color: $sasspink;
       }
     }
+  }
+
+  .project-description {
+    width: 1200px;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    margin: 50px auto;
+    color: $homepagetextgrey;
+    border-bottom: 2px solid $homepagegrey;
+    padding-bottom: 50px;
+    @include maintext(400);
+
+    span:hover {
+      color: $sasspink;
+    }
+  }
+
+  .projects {
+    width: 1200px;
+    height: 1050px;
+    margin: 0 auto;
+    @include flexdisplay(column, space-around,center);
+  }
+
+  .thumbnail-container {
+    width: 520px;
+    height: 290px;
+    margin: 0px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    box-shadow: rgba(0,0,0,0.2) 3px 3px 2px 0px;
+  }
+
+  .hack-reactor-project {
+    background-image: url('./images/hack-reactor-homepage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

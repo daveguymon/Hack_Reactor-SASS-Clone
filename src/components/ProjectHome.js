@@ -1,25 +1,29 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function ProjectHome (props) {
 
   return (
     <main className="project-home">
-      <section className="project-contents">
-        <header>
-          <div className="sass-logo"></div>
-          <div className="project-title">
-            <h1>Homepage Gallery</h1>
-            <p>Pixel-perfect clones of high-quality homepages.</p>
-          </div>
-        </header>
+      <header>
+        <img src="http://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png" alt="sass logo"/>
+        <p>a few <span>pixel perfect</span> homepage clones.</p>
+      </header>
+
+      <h1 className="project-description">I taught myself <span>SASS</span> to make my code even better.</h1>
+
+      <div className="projects">
+        <Link to="/hack-reactor">
+        <div className="thumbnail-container hack-reactor-project">
+        </div>
+        </Link>
 
         <div className="thumbnail-container">
-          <div className="homepage-thumbnail hack-reactor">
-          </div>
-          <div className="homepage-thumbnail hack-reactor"></div>
-          <div className="homepage-thumbnail hack-reactor"></div>
         </div>
-      </section>
+
+        <div className="thumbnail-container">
+        </div>
+      </div>
     </main>
   )
 }
