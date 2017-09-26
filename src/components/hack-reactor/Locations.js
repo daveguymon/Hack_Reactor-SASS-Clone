@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SplashLocations (props){
+export default function Locations (props){
 
   return(
     <main className="splash-locations">

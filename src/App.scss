@@ -1,17 +1,20 @@
 @import './styles/project-home.scss';
+
 @import './styles/variables.scss';
-@import './styles/navbar.scss';
-@import './styles/navbar-ad.scss';
-@import './styles/splash-banner.scss';
-@import './styles/splash-outcomes.scss';
-@import './styles/splash-immersive.scss';
-@import './styles/splash-locations.scss';
-@import './styles/get-syllabus.scss';
-@import './styles/partnerships.scss';
-@import './styles/company-logo-card.scss';
-@import './styles/testimonials.scss';
-@import './styles/graduation-stats.scss';
-@import './styles/getting-attention.scss';
-@import './styles/experience-campus.scss';
-@import './styles/in-the-news.scss';
-@import './styles/footer.scss';
+@import './styles/hack-reactor/navbar.scss';
+@import './styles/hack-reactor/navbar-ad.scss';
+@import './styles/hack-reactor/banner.scss';
+@import './styles/hack-reactor/outcomes.scss';
+@import './styles/hack-reactor/immersive.scss';
+@import './styles/hack-reactor/locations.scss';
+@import './styles/hack-reactor/get-syllabus.scss';
+@import './styles/hack-reactor/partnerships.scss';
+@import './styles/hack-reactor/company-logo-card.scss';
+@import './styles/hack-reactor/testimonials.scss';
+@import './styles/hack-reactor/graduation-stats.scss';
+@import './styles/hack-reactor/getting-attention.scss';
+@import './styles/hack-reactor/experience-campus.scss';
+@import './styles/hack-reactor/in-the-news.scss';
+@import './styles/hack-reactor/footer.scss';
+
+@import './styles/mx/mx-navbar.scss';

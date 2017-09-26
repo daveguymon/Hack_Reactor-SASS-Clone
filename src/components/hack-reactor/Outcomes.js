@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SplashOutcomes(props){
+export default function Outcomes(props){
 
   return (
     <main className="splash-outcomes">

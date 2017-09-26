@@ -2,10 +2,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .project-home {
   width: 100%;
   min-height: 100vh; }
@@ -68,18 +70,22 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 /*BEGIN PROJECT HOME*/
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .navbar {
   display: flex;
   flex-direction: row;
@@ -217,10 +223,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .navbar-ad {
   display: flex;
   flex-direction: row;
@@ -261,10 +269,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .splash-banner {
   width: 100%;
   height: 450px;
@@ -377,10 +387,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .splash-outcomes {
   width: 100%;
   height: 600px;
@@ -507,10 +519,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .splash-immersive {
   width: 100%;
   height: 500px;
@@ -635,10 +649,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .splash-locations {
   width: 100%;
   height: 405px;
@@ -827,10 +843,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .get-syllabus {
   display: flex;
   flex-direction: column;
@@ -898,10 +916,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .partnerships {
   display: flex;
   flex-direction: column;
@@ -959,10 +979,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .company-logo-card {
   width: 166px;
   height: 99px;
@@ -977,10 +999,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .testimonials {
   display: flex;
   flex-direction: row;
@@ -1046,10 +1070,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .graduation-stats {
   position: relative;
   top: 150px;
@@ -1094,10 +1120,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .getting-attention {
   position: relative;
   top: 150px;
@@ -1181,10 +1209,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .experience-campus {
   position: relative;
   top: 150px;
@@ -1252,10 +1282,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .in-the-news {
   position: relative;
   top: 150px;
@@ -1309,10 +1341,12 @@
 /*font weights include 400, 700*/
 /*END PROJECT HOME*/
 /*BEGIN HACK REACTOR*/
-/*colors*/
 /*font weights include 200, 300, 400, 600*/
 /*font weights include 300, 400*/
 /*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
 .footer {
   position: relative;
   top: 150px;
@@ -1502,3 +1536,77 @@
       .footer .footer-middle .footer-nav .footer-social .social-circle:hover, .footer .footer-middle .footer-nav .footer-reviews .social-circle:hover {
         background-color: #ffffff;
         color: #0090D9; }
+
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 500, 600*/
+/*END MX*/
+.mx-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 68px;
+  background-color: #262626;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  font-size: 14px; }
+  .mx-navbar .mx-navbar-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 68px;
+    margin: 0 auto; }
+    .mx-navbar .mx-navbar-contents img {
+      width: 80px;
+      height: 33px; }
+    .mx-navbar .mx-navbar-contents .mx-logo-container, .mx-navbar .mx-navbar-contents .mx-demo-button-container {
+      width: 253px;
+      height: 68px; }
+    .mx-navbar .mx-navbar-contents .mx-logo-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center; }
+    .mx-navbar .mx-navbar-contents .mx-navlinks {
+      width: 774px;
+      height: 68px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      .mx-navbar .mx-navbar-contents .mx-navlinks .mx-links-contents {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 510px;
+        height: 68px; }
+        .mx-navbar .mx-navbar-contents .mx-navlinks .mx-links-contents p {
+          text-align: center;
+          letter-spacing: 1px; }
+    .mx-navbar .mx-navbar-contents .mx-demo-button-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center; }
+      .mx-navbar .mx-navbar-contents .mx-demo-button-container .mx-demo-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background-image: linear-gradient(255deg, #23c5d6, #18b3d5);
+        border-radius: 2px;
+        letter-spacing: 1.5px; }

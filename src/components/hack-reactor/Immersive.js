@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SplashImmersive (props){
+export default function Immersive (props){
 
   return(
     <main className="splash-immersive">

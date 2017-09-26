@@ -8,13 +8,10 @@ $sasspink: #CC6A9B;
   font-weight: $weight;
 }
 /*font weights include 400, 700*/
-
 /*END PROJECT HOME*/
 
 
 /*BEGIN HACK REACTOR*/
-
-/*colors*/
 $primaryblack: #000000;
 $primarygrey: #7c7c7c;
 $primarywhite: #ffffff;
@@ -49,5 +46,20 @@ $titletext: 'Merriweather', serif;
   font-family: 'Merriweather', serif;
   font-weight: $weight;
 }
-
 /*END HACK REACTOR*/
+
+
+/*START MX*/
+$mxblack: #262626;
+$mxwhite: #FFFFFF;
+
+
+$mxbutton: linear-gradient(255deg, #23c5d6, #18b3d5);
+
+@mixin mxtext($weight){
+  font-family: 'Montserrat', sans-serif;
+  font-weight: $weight;
+}
+/*font weights include 400, 500, 600*/
+
+/*END MX*/

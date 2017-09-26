@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class SplashBanner extends Component {
+export default class Banner extends Component {
   constructor(props){
     super(props);
     this.state={
