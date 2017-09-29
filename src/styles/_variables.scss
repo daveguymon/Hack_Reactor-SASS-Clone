@@ -57,9 +57,9 @@ $mxwhite: #FFFFFF;
 $mxbutton: linear-gradient(255deg, #23c5d6, #18b3d5);
 
 @mixin mxtext($weight){
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: $weight;
 }
-/*font weights include 400, 500, 600*/
+/*font weights include 400, 600, 700, 800*/
 
 /*END MX*/
