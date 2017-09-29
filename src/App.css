@@ -1559,7 +1559,8 @@
   font-weight: 600;
   color: #FFFFFF;
   font-size: 14px;
-  position: fixed; }
+  position: fixed;
+  z-index: 100; }
   .mx-navbar .mx-navbar-contents {
     display: flex;
     flex-direction: row;
@@ -1656,14 +1657,14 @@
   position: relative;
   top: 68px;
   width: 100%;
-  height: 1000px;
+  height: 1128px;
   background-image: url("https://data.mx.com/assets/images/home/hero_image.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   color: #FFFFFF; }
   .mx-banner .mx-banner-content {
     width: 800px;
-    padding: 230px 0 0 200px; }
+    padding: 200px 0 0 200px; }
     .mx-banner .mx-banner-content .mx-banner-lg-text {
       font-size: 64px;
       font-family: 'Open Sans', sans-serif;
@@ -1671,10 +1672,34 @@
       line-height: 70px; }
       .mx-banner .mx-banner-content .mx-banner-lg-text span {
         font-family: 'Open Sans', sans-serif;
-        font-weight: 600; }
+        font-weight: 600;
+        letter-spacing: 3px; }
     .mx-banner .mx-banner-content .mx-banner-sm-text {
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       font-size: 16px;
       line-height: 25.6px;
       margin-top: 25px; }
+  .mx-banner .mx-fintech-companies {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #E6EAEB; }
+    .mx-banner .mx-fintech-companies p {
+      width: 100%;
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      color: #929292;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 25px; }
+    .mx-banner .mx-fintech-companies .mx-fintech-logos {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 0 125px;
+      width: 100%;
+      height: auto; }

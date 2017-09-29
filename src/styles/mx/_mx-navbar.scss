@@ -9,6 +9,7 @@
   color: $mxwhite;
   font-size: 14px;
   position: fixed;
+  z-index: 100;
 
   .mx-navbar-contents {
     @include flexdisplay(row,space-between,center);
