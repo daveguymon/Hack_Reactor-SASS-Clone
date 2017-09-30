@@ -1,0 +1,27 @@
+@import './../variables.scss';
+
+.nextgen-pfm {
+  position: relative;
+  top: 68px;
+  width: 100%;
+  height: 726px;
+  background-color: $mxwhite;
+  overflow: hidden;
+  @include flexdisplay(row,flex-end,center);
+
+  img {
+    position: absolute;
+    bottom: -55px;
+    left: 0px;
+    width: 750px;
+  }
+
+  .nextgen-text-contents {
+    @include mxsectiontext;
+    margin: 125px 80px 0 0;
+  }
+
+  .nextgen-btn {
+    @include mxbutton(190px);
+  }
+}

@@ -1754,3 +1754,61 @@
           font-weight: 400;
           font-size: 16px;
           line-height: 30px; }
+
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 600, 700, 800*/
+/*END MX*/
+.nextgen-pfm {
+  position: relative;
+  top: 68px;
+  width: 100%;
+  height: 726px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
+  .nextgen-pfm img {
+    position: absolute;
+    bottom: -55px;
+    left: 0px;
+    width: 750px; }
+  .nextgen-pfm .nextgen-text-contents {
+    margin: 125px 80px 0 0; }
+    .nextgen-pfm .nextgen-text-contents h1 {
+      font-size: 45px;
+      line-height: 50px;
+      margin-bottom: 25px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400; }
+      .nextgen-pfm .nextgen-text-contents h1 span {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700; }
+    .nextgen-pfm .nextgen-text-contents p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px; }
+  .nextgen-pfm .nextgen-btn {
+    width: 190px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    background-image: linear-gradient(255deg, #23c5d6, #18b3d5);
+    border-radius: 2px;
+    color: #FFFFFF;
+    margin-top: 10px; }

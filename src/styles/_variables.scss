@@ -64,4 +64,36 @@ $mxbutton: linear-gradient(255deg, #23c5d6, #18b3d5);
 }
 /*font weights include 400, 600, 700, 800*/
 
+@mixin mxsectiontext{
+  h1 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    @include mxtext(400);
+
+    span {
+      @include mxtext(700);
+    }
+  }
+
+  p {
+    @include mxtext(400);
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@mixin mxbutton($width){
+  width: $width;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 50px;
+  @include flexdisplay(row,center,center);
+  letter-spacing: 2px;
+  background-image: $mxbutton;
+  border-radius: 2px;
+  color: $mxwhite;
+  margin-top: 10px;
+}
 /*END MX*/
