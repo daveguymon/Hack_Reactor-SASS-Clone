@@ -19,6 +19,9 @@ export default function ProjectHome (props) {
         </Link>
 
         <div className="thumbnail-container">
+          <Link to="/mx">
+          <div className="thumbnail-container mx-project"></div>
+          </Link>
         </div>
 
         <div className="thumbnail-container">

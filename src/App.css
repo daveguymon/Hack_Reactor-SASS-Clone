@@ -65,6 +65,10 @@
     background-image: url("./images/hack-reactor-homepage.png");
     background-size: cover;
     background-repeat: no-repeat; }
+  .project-home .mx-project {
+    background-image: url("./images/mx-homepage.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
 
 /*BEGIN PROJECT HOME*/
 /*font weights include 400, 700*/
