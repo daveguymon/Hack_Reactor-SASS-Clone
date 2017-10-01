@@ -1,0 +1,35 @@
+@import './../variables.scss';
+
+
+.cross-platform-framework {
+  position: relative;
+  top: 68px;
+  width: 100%;
+  height: 881px;
+  background-color: $mxgreybackground;
+
+  img {
+    position: absolute;
+    right: 0px;
+    top: 135px;
+    width: 720px;
+  }
+
+  .cross-platform-container {
+    width: 848px;
+    height: 881px;
+    padding: 0 72px;
+    @include flexdisplay(column,center,flex-start);
+
+    .cross-platform-text-contents {
+      @include mxsectiontext;
+      @include flexdisplay(column,center,flex-end);
+      text-align: right;
+
+        .cross-platform-btn {
+          @include mxbutton(220px);
+        }
+    }
+  }
+
+}

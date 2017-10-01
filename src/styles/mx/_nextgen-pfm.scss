@@ -19,9 +19,9 @@
   .nextgen-text-contents {
     @include mxsectiontext;
     margin: 125px 80px 0 0;
-  }
 
-  .nextgen-btn {
-    @include mxbutton(190px);
+    .nextgen-btn {
+      @include mxbutton(190px);
+    }
   }
 }

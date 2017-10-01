@@ -54,6 +54,7 @@ $mxblack: #262626;
 $mxwhite: #FFFFFF;
 $mxgrey: #E6EAEB;
 $mxdeepgrey: #929292;
+$mxgreybackground: #F3F3F3;
 
 
 $mxbutton: linear-gradient(255deg, #23c5d6, #18b3d5);
@@ -67,8 +68,8 @@ $mxbutton: linear-gradient(255deg, #23c5d6, #18b3d5);
 @mixin mxsectiontext{
   h1 {
     font-size: 45px;
-    line-height: 50px;
-    margin-bottom: 25px;
+    line-height: 63px;
+    margin-bottom: 30px;
     @include mxtext(400);
 
     span {
@@ -80,6 +81,7 @@ $mxbutton: linear-gradient(255deg, #23c5d6, #18b3d5);
     @include mxtext(400);
     font-size: 16px;
     line-height: 30px;
+    margin-bottom: 10px;
   }
 }
 
@@ -95,5 +97,8 @@ $mxbutton: linear-gradient(255deg, #23c5d6, #18b3d5);
   border-radius: 2px;
   color: $mxwhite;
   margin-top: 10px;
+    p {
+      margin-bottom: 0px;
+    }
 }
 /*END MX*/

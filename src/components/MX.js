@@ -3,6 +3,7 @@ import MXNavbar from './mx/MXNavbar';
 import MXBanner from './mx/MXBanner';
 import WhyMX from './mx/WhyMX';
 import NextGenPFM from './mx/NextGenPFM';
+import CrossPlatformFramework from './mx/CrossPlatformFramework';
 
 export default function MX (props) {
 
@@ -12,6 +13,7 @@ export default function MX (props) {
       <MXBanner />
       <WhyMX />
       <NextGenPFM />
+      <CrossPlatformFramework />
     </div>
   );
 }
