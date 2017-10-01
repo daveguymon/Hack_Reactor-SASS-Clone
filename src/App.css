@@ -1775,7 +1775,7 @@
   top: 68px;
   width: 100%;
   height: 726px;
-  background-color: #FFFFFF;
+  background-color: #FEFEFE;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -1888,3 +1888,60 @@
         margin-top: 10px; }
         .cross-platform-framework .cross-platform-container .cross-platform-text-contents .cross-platform-btn p {
           margin-bottom: 0px; }
+
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 400, 600, 700, 800*/
+/*END MX*/
+.aggregation {
+  position: relative;
+  top: 68px;
+  width: 100%;
+  height: 655px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FEFEFE; }
+  .aggregation img {
+    width: 720px; }
+  .aggregation .aggregation-container {
+    padding-right: 80px; }
+    .aggregation .aggregation-container .aggregation-text-contents h1 {
+      font-size: 45px;
+      line-height: 63px;
+      margin-bottom: 30px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400; }
+      .aggregation .aggregation-container .aggregation-text-contents h1 span {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700; }
+    .aggregation .aggregation-container .aggregation-text-contents p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      margin-bottom: 10px; }
+    .aggregation .aggregation-container .aggregation-text-contents .aggregation-btn {
+      width: 232px;
+      height: 50px;
+      padding: 0 20px;
+      font-size: 14px;
+      line-height: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 2px;
+      background-image: linear-gradient(255deg, #23c5d6, #18b3d5);
+      border-radius: 2px;
+      color: #FFFFFF;
+      margin-top: 10px; }
+      .aggregation .aggregation-container .aggregation-text-contents .aggregation-btn p {
+        margin-bottom: 0px; }
