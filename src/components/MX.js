@@ -5,6 +5,7 @@ import WhyMX from './mx/WhyMX';
 import NextGenPFM from './mx/NextGenPFM';
 import CrossPlatformFramework from './mx/CrossPlatformFramework';
 import Aggregation from './mx/Aggregation';
+import FinTechAPI from './mx/FinTechAPI';
 
 export default function MX (props) {
 
@@ -16,6 +17,7 @@ export default function MX (props) {
       <NextGenPFM />
       <CrossPlatformFramework />
       <Aggregation />
+      <FinTechAPI />
     </div>
   );
 }
