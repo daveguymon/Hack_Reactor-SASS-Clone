@@ -8,6 +8,7 @@ import Aggregation from './mx/Aggregation';
 import FinTechAPI from './mx/FinTechAPI';
 import SchulteTestimonial from './mx/SchulteTestimonial';
 import Demo from './mx/Demo';
+import MXFooter from './mx/MXFooter';
 
 export default function MX (props) {
 
@@ -22,6 +23,7 @@ export default function MX (props) {
       <FinTechAPI />
       <SchulteTestimonial />
       <Demo />
+      <MXFooter />
     </div>
   );
 }
