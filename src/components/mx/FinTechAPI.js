@@ -21,7 +21,7 @@ export default function FinTechAPI (props) {
           </div>
         </div>
       </div>
-      <img src="https://data.mx.com/assets/images/home/developer-api@2x.png" className="fintech api" />
+      <img src="https://data.mx.com/assets/images/home/developer-api@2x.png" alt="fintech api" />
     </main>
   )
 }

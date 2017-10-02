@@ -2098,3 +2098,79 @@
       font-size: 16px;
       line-height: 30px;
       margin-top: 3px; }
+
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 300i, 400, 600, 700, 800*/
+/*END MX*/
+.demo {
+  position: relative;
+  top: 68px;
+  width: 100%;
+  height: 834px;
+  background-image: url("https://data.mx.com/assets/images/home/demo_image.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #FFFFFF; }
+  .demo .demo-contents {
+    width: 650px;
+    height: 468px;
+    margin-left: 168px; }
+    .demo .demo-contents h1 {
+      font-size: 45px;
+      line-height: 63px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300; }
+    .demo .demo-contents h2 {
+      font-size: 45px;
+      line-height: 63px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      margin-bottom: 40px; }
+    .demo .demo-contents .input-fields {
+      width: 492px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap; }
+      .demo .demo-contents .input-fields input {
+        width: 202px;
+        height: 60px;
+        border-radius: 4px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0px 20px;
+        margin-bottom: 40px; }
+      .demo .demo-contents .input-fields input::placeholder {
+        color: #929292; }
+      .demo .demo-contents .input-fields .double-wide {
+        width: 492px;
+        margin-top: -25px; }
+    .demo .demo-contents .mx-demo-btn {
+      width: 200px;
+      height: 50px;
+      padding: 0 20px;
+      font-size: 14px;
+      line-height: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 2px;
+      background-image: linear-gradient(255deg, #23c5d6, #18b3d5);
+      border-radius: 2px;
+      color: #FFFFFF;
+      margin-top: 10px;
+      margin-top: -5px; }
+      .demo .demo-contents .mx-demo-btn p {
+        margin-bottom: 0px; }

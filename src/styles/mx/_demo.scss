@@ -1,0 +1,61 @@
+@import './../variables.scss';
+
+.demo {
+  position: relative;
+  top: 68px;
+  width: 100%;
+  height: 834px;
+  background-image: url('https://data.mx.com/assets/images/home/demo_image.jpg');
+  @include flexdisplay(row,flex-start,center);
+  color: $mxwhite;
+
+  .demo-contents {
+    width: 650px;
+    height: 468px;
+    margin-left: 168px;
+
+    h1 {
+      font-size: 45px;
+      line-height: 63px;
+      @include mxtext(300);
+    }
+
+    h2 {
+      font-size: 45px;
+      line-height: 63px;
+      @include mxtext(700);
+      margin-bottom: 40px;
+    }
+
+    .input-fields {
+      width: 492px;
+      @include flexdisplay(row,space-between,flex-start);
+      flex-wrap: wrap;
+
+      input {
+        width: 202px;
+        height: 60px;
+        border-radius: 4px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0px 20px;
+        margin-bottom: 40px;
+      }
+
+      input::placeholder {
+        color: $mxdeepgrey;
+      }
+
+      .double-wide {
+        width: 492px;
+        margin-top: -25px;
+      }
+    }
+
+    .mx-demo-btn {
+      @include mxbutton(200px);
+      margin-top: -5px;
+    }
+  }
+}
