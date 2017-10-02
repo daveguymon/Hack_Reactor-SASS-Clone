@@ -1,0 +1,44 @@
+@import './../variables.scss';
+
+.schulte-testimonial {
+  position: relative;
+  top: 68px;
+  width: 100%;
+  height: 540px;
+  background-image: url('https://data.mx.com/assets/images/home/home-testimonial.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  @include flexdisplay(row, flex-start, center);
+
+  .schulte-text-contents {
+    width: 581px;
+    height: 288px;
+    color: $mxwhite;
+    text-align: center;
+    @include mxtext(300);
+    margin-left: 200px;
+
+
+
+    h3{
+      font-size: 36px;
+      line-height: 43px;
+      font-style: italic;
+      margin-bottom: 25px;
+    }
+
+    .mx-citation-name {
+      @include mxtext(600);
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    .mx-citation-title {
+      @include mxtext(300)
+      font-size: 16px;
+      line-height: 30px;
+      margin-top: 3px;
+    }
+  }
+}
