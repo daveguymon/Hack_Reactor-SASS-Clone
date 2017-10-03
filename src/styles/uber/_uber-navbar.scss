@@ -13,7 +13,7 @@
     @include flexdisplay(row,space-between,center);
 
     .uber-nav-left {
-      width: 67.5%;
+      width: 65%;
       height: 60px;
       @include flexdisplay(row,flex-start,center);
 
@@ -30,11 +30,16 @@
         color: $headingfontcolor;
         padding-top: -4px;
         @include navlinkfocus;
+
+        p {
+          height:60px;
+          width: auto;
+        }
       }
     }
 
     .uber-nav-right {
-      width: 32.5%;
+      width: 35%;
       height: 60px;
       @include flexdisplay(row,space-between,center);
 
@@ -45,6 +50,7 @@
         @include uberfont(16px,400,60px);
         color: $headingfontcolor;
         @include navlinkfocus;
+        margin-right: 5px;
       }
 
       .fa-map-marker:hover {
@@ -86,7 +92,62 @@
           background-color: $uberlightgreen;
         }
       }
+    }
+  }
 
+  .uber-ride-dropdown, .uber-drive-dropdown {
+    display: relative;
+    width: 100%;
+    height: 85px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 2px 0px;
+    border-top: 1px solid $ubergreybackground;
+    @include flexdisplay(row,center,center);
+
+    .uber-dropdown-contents {
+      width: 81%;
+      height: 56px;
+      margin: 0 auto;
+      @include flexdisplay(row,flex-start,flex-start);
+
+        .uber-dropdown-nav-column {
+          width: 255px;
+          height: 56px;
+          @include flexdisplay(column, flex-start,space-around);
+          padding-left: 95px;
+
+           p {
+             @include uberfont(16px, 400, 21px);
+             margin-top: 3px;
+           }
+
+           p:hover {
+             color: $uberlightgreen;
+           }
+        }
+    }
+
+    .uber-hover-bridge {
+      position: absolute;
+      left: 240px;
+      top: 35px;
+      width: 60px;
+      height: 40px;
+    }
+  }
+
+  .uber-drive-dropdown {
+    height: 117px;
+
+    .uber-dropdown-contents {
+      height: 84px;
+
+      .uber-dropdown-nav-column {
+        height: 84px;
+      }
+    }
+
+    .uber-hover-bridge {
+      left: 310px;
     }
   }
 }

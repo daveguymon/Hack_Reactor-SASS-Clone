@@ -2319,7 +2319,7 @@
     justify-content: space-between;
     align-items: center; }
     .uber-navbar .uber-navbar-contents .uber-nav-left {
-      width: 67.5%;
+      width: 65%;
       height: 60px;
       display: flex;
       flex-direction: row;
@@ -2356,8 +2356,11 @@
           .uber-navbar .uber-navbar-contents .uber-nav-left .uber-ride-drive .uber-nav-link .focus-bar:hover {
             background-color: #377037;
             color: #377037; }
+        .uber-navbar .uber-navbar-contents .uber-nav-left .uber-ride-drive p {
+          height: 60px;
+          width: auto; }
     .uber-navbar .uber-navbar-contents .uber-nav-right {
-      width: 32.5%;
+      width: 35%;
       height: 60px;
       display: flex;
       flex-direction: row;
@@ -2375,7 +2378,8 @@
         font-weight: 400;
         /*400, 500, 700*/
         line-height: 60px;
-        color: #000000; }
+        color: #000000;
+        margin-right: 5px; }
         .uber-navbar .uber-navbar-contents .uber-nav-right .uber-help-signin .uber-nav-link {
           height: 60px;
           width: 66.5px;
@@ -2425,3 +2429,52 @@
           background-color: #000000; }
       .uber-navbar .uber-navbar-contents .uber-nav-right .uber-ham-icon:hover .uber-ham {
         background-color: #377037; }
+  .uber-navbar .uber-ride-dropdown, .uber-navbar .uber-drive-dropdown {
+    display: relative;
+    width: 100%;
+    height: 85px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 2px 0px;
+    border-top: 1px solid #F8F8F9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .uber-navbar .uber-ride-dropdown .uber-dropdown-contents, .uber-navbar .uber-drive-dropdown .uber-dropdown-contents {
+      width: 81%;
+      height: 56px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start; }
+      .uber-navbar .uber-ride-dropdown .uber-dropdown-contents .uber-dropdown-nav-column, .uber-navbar .uber-drive-dropdown .uber-dropdown-contents .uber-dropdown-nav-column {
+        width: 255px;
+        height: 56px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: space-around;
+        padding-left: 95px; }
+        .uber-navbar .uber-ride-dropdown .uber-dropdown-contents .uber-dropdown-nav-column p, .uber-navbar .uber-drive-dropdown .uber-dropdown-contents .uber-dropdown-nav-column p {
+          font-family: 'Maven Pro', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          /*400, 500, 700*/
+          line-height: 21px;
+          margin-top: 3px; }
+        .uber-navbar .uber-ride-dropdown .uber-dropdown-contents .uber-dropdown-nav-column p:hover, .uber-navbar .uber-drive-dropdown .uber-dropdown-contents .uber-dropdown-nav-column p:hover {
+          color: #377037; }
+    .uber-navbar .uber-ride-dropdown .uber-hover-bridge, .uber-navbar .uber-drive-dropdown .uber-hover-bridge {
+      position: absolute;
+      left: 240px;
+      top: 35px;
+      width: 60px;
+      height: 40px; }
+  .uber-navbar .uber-drive-dropdown {
+    height: 117px; }
+    .uber-navbar .uber-drive-dropdown .uber-dropdown-contents {
+      height: 84px; }
+      .uber-navbar .uber-drive-dropdown .uber-dropdown-contents .uber-dropdown-nav-column {
+        height: 84px; }
+    .uber-navbar .uber-drive-dropdown .uber-hover-bridge {
+      left: 310px; }
