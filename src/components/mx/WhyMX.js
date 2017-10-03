@@ -33,7 +33,7 @@ export default class WhyMX extends Component {
           <section className="mx-why-contents">
             <img src="https://data.mx.com/assets/images/play.svg" alt="play" onClick={this.showVideo.bind(this)}/>
             <div className="mx-video-container" style={this.state.hidevideo ? hidden : null} onClick={this.hideVideo.bind(this)}>
-              <iframe width="560" height="315" src={this.state.videourl} frameborder="0" allowfullscreen></iframe>
+              <iframe title="What is Financial Aggregation?" width="560" height="315" src={this.state.videourl} frameborder="0" allowfullscreen></iframe>
             </div>
             <section className="mx-why-text-contents">
               <h1>WHY <span>MX?</span></h1>

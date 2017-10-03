@@ -104,3 +104,23 @@ $mxbutton: linear-gradient(255deg, #23c5d6, #18b3d5);
     }
 }
 /*END MX*/
+
+/*START UBER*/
+
+$lightheadingfontcolor: #494949;
+$headingfontcolor: #000000;
+$bodyfontcolor: #0A0A0A;
+$uberwhitebackground: #FFFFFF;
+$ubergreybackground: #F8F8F9;
+$uberdarkgreen: #295429;
+$uberlightgreen: #377037;
+
+
+@mixin uberfont($size, $weight, $height){
+  font-family: 'Maven Pro', sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  /*400, 500, 700*/
+  line-height: $height;
+}
+/*END UBER*/

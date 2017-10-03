@@ -18,14 +18,15 @@ export default function ProjectHome (props) {
         </div>
         </Link>
 
-        <div className="thumbnail-container">
-          <Link to="/mx">
-          <div className="thumbnail-container mx-project"></div>
-          </Link>
-        </div>
 
-        <div className="thumbnail-container">
+        <Link to="/mx">
+        <div className="thumbnail-container mx-project"></div>
+        </Link>
+
+        <Link to="/uber">
+        <div className="thumbnail-container uber-project">
         </div>
+        </Link>
       </div>
     </main>
   )
