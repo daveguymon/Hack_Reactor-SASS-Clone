@@ -25,9 +25,11 @@
       .uber-ride-drive {
         height: 60px;
         width: 133px;
-        @include flexdisplay(row, space-around, center);
+        @include flexdisplay(row, space-around, null);
         @include uberfont(16px,400,60px);
-        color: $uberlightgreen;
+        color: $headingfontcolor;
+        padding-top: -4px;
+        @include navlinkfocus;
       }
     }
 
@@ -36,13 +38,17 @@
       height: 60px;
       @include flexdisplay(row,space-between,center);
 
-
       .uber-help-signin {
         height: 60px;
         width: 133px;
         @include flexdisplay(row, space-around, center);
         @include uberfont(16px,400,60px);
         color: $headingfontcolor;
+        @include navlinkfocus;
+      }
+
+      .fa-map-marker:hover {
+        color: $uberlightgreen;
       }
 
       .uber-nav-btn {
@@ -58,6 +64,11 @@
         }
       }
 
+      .uber-nav-btn:hover {
+        background-color: $uberdarkgreen;
+        transition: all .2s ease-in-out;
+      }
+
       .uber-ham-icon {
         @include flexdisplay(column,space-around,center);
         height: 16px;
@@ -67,6 +78,12 @@
           width: 20px;
           height: 2px;
           background-color: $headingfontcolor;
+        }
+      }
+
+      .uber-ham-icon:hover {
+        .uber-ham {
+          background-color: $uberlightgreen;
         }
       }
 

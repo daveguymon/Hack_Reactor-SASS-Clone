@@ -123,4 +123,27 @@ $uberlightgreen: #377037;
   /*400, 500, 700*/
   line-height: $height;
 }
+
+@mixin navlinkfocus {
+
+  .uber-nav-link {
+    height: 60px;
+    width: 66.5px;
+    @include flexdisplay(column,flex-start,center);
+
+    .focus-bar {
+      width: 66.5px;
+      height: 4px;
+      background-color: transparent;
+      text-align: center;
+    }
+
+    .focus-bar:hover {
+      background-color: $uberlightgreen;
+      color: $uberlightgreen;
+    }
+
+  }
+
+}
 /*END UBER*/

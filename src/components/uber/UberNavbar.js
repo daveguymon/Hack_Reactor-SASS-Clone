@@ -15,14 +15,22 @@ export default class UberNavbar extends Component {
           <section className="uber-nav-left">
             <img src="http://www.underconsideration.com/brandnew/archives/uber_2016_logo.png" alt="uber logo" />
             <div className="uber-ride-drive">
-              <p>Ride</p>
-              <p>Drive</p>
+            <div className="uber-nav-link">
+              <div className="focus-bar">Ride</div>
+            </div>
+            <div className="uber-nav-link">
+              <div className="focus-bar">Drive</div>
+            </div>
             </div>
           </section>
           <section className="uber-nav-right">
             <div className="uber-help-signin">
-            <p>HELP</p>
-            <p>SIGN IN</p>
+            <div className="uber-nav-link">
+              <div className="focus-bar">HELP</div>
+            </div>
+            <div className="uber-nav-link">
+              <div className="focus-bar">SIGN IN</div>
+            </div>
             </div>
 
           <i className="fa fa-map-marker fa-lg" aria-hidden="true"></i>
