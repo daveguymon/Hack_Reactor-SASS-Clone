@@ -13,7 +13,7 @@
     @include flexdisplay(row,space-between,center);
 
     .uber-nav-left {
-      width: 65%;
+      width: 67.5%;
       height: 60px;
       @include flexdisplay(row,flex-start,center);
 
@@ -26,7 +26,7 @@
         height: 60px;
         width: 133px;
         @include flexdisplay(row, space-around, null);
-        @include uberfont(16px,400,60px);
+        @include uberfont(16px,300,60px);
         color: $headingfontcolor;
         padding-top: -4px;
         @include navlinkfocus;
@@ -39,7 +39,7 @@
     }
 
     .uber-nav-right {
-      width: 35%;
+      width: 32.5%;
       height: 60px;
       @include flexdisplay(row,space-between,center);
 
@@ -58,14 +58,14 @@
       }
 
       .uber-nav-btn {
-        width: 170px;
+        width: 150px;
         height: 40px;
         background-color: $uberlightgreen;
         @include flexdisplay(row,center,center);
         margin: 0 14px;
 
         p {
-          @include uberfont(14px,400,28.5px);
+          @include uberfont(13px,400,28.5px);
           color: $uberwhitebackground;
         }
       }
