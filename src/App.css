@@ -2309,6 +2309,7 @@
   width: 100%;
   height: 60px;
   position: fixed;
+  z-index: 100;
   background-color: #FFFFFF; }
   .uber-navbar .uber-navbar-contents {
     width: 81%;
@@ -2430,7 +2431,6 @@
       .uber-navbar .uber-navbar-contents .uber-nav-right .uber-ham-icon:hover .uber-ham {
         background-color: #377037; }
   .uber-navbar .uber-ride-dropdown, .uber-navbar .uber-drive-dropdown {
-    display: relative;
     width: 100%;
     height: 85px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 2px 0px;
@@ -2438,7 +2438,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    background-color: #FFFFFF; }
     .uber-navbar .uber-ride-dropdown .uber-dropdown-contents, .uber-navbar .uber-drive-dropdown .uber-dropdown-contents {
       width: 81%;
       height: 56px;
@@ -2458,9 +2459,9 @@
         .uber-navbar .uber-ride-dropdown .uber-dropdown-contents .uber-dropdown-nav-column p, .uber-navbar .uber-drive-dropdown .uber-dropdown-contents .uber-dropdown-nav-column p {
           font-family: 'Fira Sans', sans-serif;
           font-size: 16px;
-          font-weight: 400;
+          font-weight: 300;
           /*300, 400, 500, 600, 700*/
-          line-height: 21px;
+          line-height: 22px;
           margin-top: 3px; }
         .uber-navbar .uber-ride-dropdown .uber-dropdown-contents .uber-dropdown-nav-column p:hover, .uber-navbar .uber-drive-dropdown .uber-dropdown-contents .uber-dropdown-nav-column p:hover {
           color: #377037; }
