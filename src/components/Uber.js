@@ -1,6 +1,7 @@
 import React from 'react';
 import UberNavbar from './uber/UberNavbar';
 import UberBanner from './uber/UberBanner';
+import UberSignup from './uber/UberSignup';
 
 
 export default function Uber (props) {
@@ -9,6 +10,7 @@ export default function Uber (props) {
     <div className="uber">
       <UberNavbar />
       <UberBanner />
+      <UberSignup />
     </div>
   );
 }

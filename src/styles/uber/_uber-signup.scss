@@ -1,0 +1,144 @@
+@import './../variables.scss';
+
+.uber-signup {
+  position: absolute;
+  right: 100px;
+  top: 106px;
+  width: 400px;
+  min-height: 819px;
+  background-color: $ubergreybackground;
+  @include flexdisplay(column, flex-start,center);
+
+  .grey-bar {
+    width: 400px;
+    height: 10px;
+    background-color: $ubergreyaccent;
+  }
+
+  .signup-section {
+    width: 336px;
+    height: 65px;
+    margin: 28px 0px;
+    @include flexdisplay(row,flex-start,center);
+
+    img {
+      height: 65px;
+      width: 65px;
+      margin-right: 20px;
+    }
+
+    p {
+      @include uberfont(24px, 300, 28px);
+
+      span {
+        @include uberfont(14px, 400, 14px);
+        color: $uberlightgreen;
+        width: 84px;
+        height: 28px;
+        @include flexdisplay(row,space-between,center);
+        transition: all .2s ease-in-out;
+
+
+        .fa-chevron-right {
+          font-size: .95em;
+        }
+      }
+
+      span:hover {
+        color: $uberdarkgreen;
+        width: 94px;
+        transition: all .2s ease-in-out;
+      }
+    }
+  }
+  .or-border {
+    width: 336px;
+    height: 1px;
+    background-color: $ubergreyaccent;
+  }
+
+  .or-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    @include flexdisplay(row,center,center);
+    position: relative;
+    top: -25px;
+    background-color: $ubergreybackground;
+
+    p {
+      @include uberfont(14px, 200, 24px);
+    }
+  }
+
+  .signup-to-drive {
+    margin-top: -20px;
+  }
+
+  .uber-input-fields {
+    width: 336px;
+    @include flexdisplay(column,flex-start,center);
+
+    .signup-name {
+      @include flexdisplay(row,center,center);
+      margin-bottom: 10px;
+
+      input {
+        @include uberinput(148px, 32px);
+      }
+    }
+    input {
+      @include uberinput(320px, 32px);
+    }
+
+    .input-city {
+      margin: 12px 0px 36px 0px;
+    }
+  }
+
+  .uber-signup-button {
+    width: 342.5px;
+    height: 44px;
+    background-color: $uberlightgreen;
+    @include flexdisplay(row,space-between,center);
+    padding: 0px 20px 0 10px;;
+    margin-top: 12px;
+    transition: all .2s ease-in-out;
+
+    p {
+      @include uberfont(15px, 400, 44px);
+      color: $uberwhitebackground;
+    }
+
+    .fa-long-arrow-right {
+      color: $uberwhitebackground;
+    }
+  }
+
+  .uber-signup-button:hover {
+    background-color: $uberdarkgreen;
+    padding-right: 10px;
+    transition: all .2s ease-in-out;
+  }
+
+  .uber-fine-print {
+    width: 340px;
+    margin-top: 32px;
+
+    p {
+      @include uberfont(16px, 300, 28px);
+
+      span {
+        color: $uberlightgreen;
+      }
+    }
+    .fine-print {
+      @include uberfont(11px, 300, 16px);
+      margin: 20px 0 32px 0;
+
+      span {
+        color: $uberlightgreen;
+      }
+    }
+  }
+}

@@ -2406,7 +2406,8 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 0 14px; }
+        margin: 0 14px;
+        transition: all .2s ease-in-out; }
         .uber-navbar .uber-navbar-contents .uber-nav-right .uber-nav-btn p {
           font-family: 'Fira Sans', sans-serif;
           font-size: 13px;
@@ -2520,3 +2521,168 @@
     background-image: url("https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/c70b8eba-a194-42c9-b734-00bd27cda456/desk2x.jpg");
     background-size: cover;
     background-position: center; }
+
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 300i, 400, 600, 700, 800*/
+/*END MX*/
+/*START UBER*/
+/*END UBER*/
+.uber-signup {
+  position: absolute;
+  right: 100px;
+  top: 106px;
+  width: 400px;
+  min-height: 819px;
+  background-color: #F8F8F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+  .uber-signup .grey-bar {
+    width: 400px;
+    height: 10px;
+    background-color: #E5E5E4; }
+  .uber-signup .signup-section {
+    width: 336px;
+    height: 65px;
+    margin: 28px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; }
+    .uber-signup .signup-section img {
+      height: 65px;
+      width: 65px;
+      margin-right: 20px; }
+    .uber-signup .signup-section p {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      /*300, 400, 500, 600, 700*/
+      line-height: 28px; }
+      .uber-signup .signup-section p span {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        /*300, 400, 500, 600, 700*/
+        line-height: 14px;
+        color: #377037;
+        width: 84px;
+        height: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        transition: all .2s ease-in-out; }
+        .uber-signup .signup-section p span .fa-chevron-right {
+          font-size: .95em; }
+      .uber-signup .signup-section p span:hover {
+        color: #295429;
+        width: 94px;
+        transition: all .2s ease-in-out; }
+  .uber-signup .or-border {
+    width: 336px;
+    height: 1px;
+    background-color: #E5E5E4; }
+  .uber-signup .or-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -25px;
+    background-color: #F8F8F9; }
+    .uber-signup .or-circle p {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 200;
+      /*300, 400, 500, 600, 700*/
+      line-height: 24px; }
+  .uber-signup .signup-to-drive {
+    margin-top: -20px; }
+  .uber-signup .uber-input-fields {
+    width: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+    .uber-signup .uber-input-fields .signup-name {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px; }
+      .uber-signup .uber-input-fields .signup-name input {
+        width: 148px;
+        height: 32px;
+        padding: 10px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        /*300, 400, 500, 600, 700*/
+        line-height: 32px; }
+    .uber-signup .uber-input-fields input {
+      width: 320px;
+      height: 32px;
+      padding: 10px;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 200;
+      /*300, 400, 500, 600, 700*/
+      line-height: 32px; }
+    .uber-signup .uber-input-fields .input-city {
+      margin: 12px 0px 36px 0px; }
+  .uber-signup .uber-signup-button {
+    width: 342.5px;
+    height: 44px;
+    background-color: #377037;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0 10px;
+    margin-top: 12px;
+    transition: all .2s ease-in-out; }
+    .uber-signup .uber-signup-button p {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      /*300, 400, 500, 600, 700*/
+      line-height: 44px;
+      color: #FFFFFF; }
+    .uber-signup .uber-signup-button .fa-long-arrow-right {
+      color: #FFFFFF; }
+  .uber-signup .uber-signup-button:hover {
+    background-color: #295429;
+    padding-right: 10px;
+    transition: all .2s ease-in-out; }
+  .uber-signup .uber-fine-print {
+    width: 340px;
+    margin-top: 32px; }
+    .uber-signup .uber-fine-print p {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      /*300, 400, 500, 600, 700*/
+      line-height: 28px; }
+      .uber-signup .uber-fine-print p span {
+        color: #377037; }
+    .uber-signup .uber-fine-print .fine-print {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      /*300, 400, 500, 600, 700*/
+      line-height: 16px;
+      margin: 20px 0 32px 0; }
+      .uber-signup .uber-fine-print .fine-print span {
+        color: #377037; }

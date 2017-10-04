@@ -64,6 +64,7 @@
         background-color: $uberlightgreen;
         @include flexdisplay(row,center,center);
         margin: 0 14px;
+        transition: all .2s ease-in-out;
 
         p {
           @include uberfont(13px,400,28.5px);

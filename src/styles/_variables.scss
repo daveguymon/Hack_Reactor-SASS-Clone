@@ -112,6 +112,7 @@ $headingfontcolor: #000000;
 $bodyfontcolor: #0A0A0A;
 $uberwhitebackground: #FFFFFF;
 $ubergreybackground: #F8F8F9;
+$ubergreyaccent: #E5E5E4;
 $uberdarkgreen: #295429;
 $uberlightgreen: #377037;
 
@@ -145,5 +146,12 @@ $uberlightgreen: #377037;
 
   }
 
+}
+
+@mixin uberinput($width, $height){
+  width: $width;
+  height: $height;
+  padding: 10px;
+  @include uberfont(16px, 200, $height);
 }
 /*END UBER*/
