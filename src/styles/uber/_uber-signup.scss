@@ -34,20 +34,20 @@
       span {
         @include uberfont(14px, 400, 14px);
         color: $uberlightgreen;
-        width: 84px;
+        width: 76px;
         height: 28px;
         @include flexdisplay(row,space-between,center);
         transition: all .2s ease-in-out;
 
 
         .fa-chevron-right {
-          font-size: .95em;
+          font-size: .8em;
         }
       }
 
       span:hover {
         color: $uberdarkgreen;
-        width: 94px;
+        width: 81px;
         transition: all .2s ease-in-out;
       }
     }
@@ -118,7 +118,7 @@
 
   .uber-signup-button:hover {
     background-color: $uberdarkgreen;
-    padding-right: 10px;
+    padding-right: 15px;
     transition: all .2s ease-in-out;
   }
 
