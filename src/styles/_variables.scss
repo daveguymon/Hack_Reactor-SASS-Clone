@@ -115,6 +115,7 @@ $ubergreybackground: #F8F8F9;
 $ubergreyaccent: #E5E5E4;
 $uberdarkgreen: #295429;
 $uberlightgreen: #377037;
+$uberdarkgrey: #C6C6C6;
 
 
 @mixin uberfont($size, $weight, $height){
@@ -123,6 +124,18 @@ $uberlightgreen: #377037;
   font-weight: $weight;
   /*300, 400, 500, 600, 700*/
   line-height: $height;
+}
+
+@mixin uberheadings() {
+  h2 {
+    @include uberfont(23px, 200, 23px);
+    margin-bottom: 12px;
+  }
+
+  h1 {
+    @include uberfont(36px, 300, 44px);
+    margin-bottom: 24px;
+  }
 }
 
 @mixin navlinkfocus {
