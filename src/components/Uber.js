@@ -2,6 +2,7 @@ import React from 'react';
 import UberNavbar from './uber/UberNavbar';
 import UberBanner from './uber/UberBanner';
 import UberSignup from './uber/UberSignup';
+import ReasonsToRide from './uber/ReasonsToRide';
 
 
 export default function Uber (props) {
@@ -11,6 +12,7 @@ export default function Uber (props) {
       <UberNavbar />
       <UberBanner />
       <UberSignup />
+      <ReasonsToRide />
     </div>
   );
 }
