@@ -23,6 +23,10 @@ export default function ReasonsToRide (props) {
           <p>Economy cars at everyday prices are<br /> always available. For special occasions,<br /> no occasion at all, or when you just need<br /> a bit more room, call a black car or SUV.</p>
         </div>
       </div>
+      <div className="reasons-to-ride-button">
+        <p>REASONS TO RIDE</p>
+        <i className="fa fa-long-arrow-right fa-lg" aria-hidden="true"></i>
+      </div>
     </main>
   )
 }

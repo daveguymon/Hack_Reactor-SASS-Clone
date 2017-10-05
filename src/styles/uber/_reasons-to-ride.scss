@@ -4,27 +4,25 @@
   position: relative;
   top: 60px;
   width: 100%;
-  height: 640px;
-  @include flexdisplay(row,center,center);
-  background-color: plum;
+  height: 630px;
+  @include flexdisplay(column,center,center);
 
   .reasons-container {
     width: 1012px;
     height: 368px;
-    margin-top: -70px;
     @include flexdisplay(row, space-around, flex-start);
-    background-color: lime;
+    margin-top: 110px;
 
     .reason-content {
       width: 307px;
       height: 312px;
-      background-color: white;
-      @include flexdisplay(column, space-between, flex-start);
+      @include flexdisplay(column, flex-start, flex-start);
 
       .reason-svg {
         width: 120px;
         height: 120px;
         background-size: contain;
+        margin-bottom: 24px;
       }
 
       .request-svg {
@@ -41,11 +39,39 @@
 
       h2 {
         @include uberfont(24px, 300, 32px);
+        margin-bottom: 16px;
       }
 
       p {
         @include uberfont(16px, 300, 24px);
       }
     }
+  }
+
+  .reasons-to-ride-button {
+    position: relative;
+    left: -380px;
+    top: -15px;
+    width: 220px;
+    height: 44px;
+    background-color: $uberlightgreen;
+    @include flexdisplay(row,space-between,center);
+    padding: 0px 20px 0 10px;;
+    transition: all .2s ease-in-out;
+
+    p {
+      @include uberfont(15px, 400, 44px);
+      color: $uberwhitebackground;
+    }
+
+    .fa-long-arrow-right {
+      color: $uberwhitebackground;
+    }
+  }
+
+  .reasons-to-ride-button:hover {
+    background-color: $uberdarkgreen;
+    padding-right: 10px;
+    transition: all .2s ease-in-out;
   }
 }
