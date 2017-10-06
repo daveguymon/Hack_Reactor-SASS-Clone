@@ -6,6 +6,7 @@ import ReasonsToRide from './uber/ReasonsToRide';
 import UberCommitment from './uber/UberCommitment';
 import FareEstimate from './uber/FareEstimate';
 import ReasonsToDrive from './uber/ReasonsToDrive';
+import UberPartners from './uber/UberPartners';
 
 
 
@@ -20,6 +21,7 @@ export default function Uber (props) {
       <UberCommitment />
       <FareEstimate />
       <ReasonsToDrive />
+      <UberPartners />
     </div>
   );
 }

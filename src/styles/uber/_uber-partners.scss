@@ -1,0 +1,118 @@
+@import './../variables.scss';
+
+.uber-partners {
+  position: relative;
+  top: 60px;
+  height: 830px;
+  min-width: 100%;
+  background-color: $ubergreybackground;
+  @include uberheadings;
+  padding-top: 80px;
+
+  h1, h2 {
+    margin-left: 230px;
+  }
+
+  .partners-container {
+    height: 515px;
+    width: 100%;
+    @include flexdisplay(row,center,center);
+    padding-left: 1000px;
+
+    .partner-card {
+      height: 513px;
+      width: 479px;
+      background-color: $uberwhitebackground;
+      margin: 0px 12px;
+
+      .partner-img {
+        width: 479px;
+        height: 299px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .partner1 {
+        background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/8e1f056b-bbe8-4910-b477-9ebe9c1356e6/desk2x.jpg');
+      }
+
+      .partner2 {
+        background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/1bfa5f79-0418-4a46-8fff-9b5a4aca9943/desk2x.jpg');
+      }
+
+      .partner3 {
+        background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/01de97a8-09cb-4d61-8d36-b96b60f83e6a/desk2x.jpg');
+      }
+
+      .partner4 {
+        background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/bb53082f-1436-453c-97d6-a48f3e3ade64/desk2x.jpg');
+      }
+
+      .partner-quote {
+        @include uberfont(16px, 300, 24px);
+        margin: 40px 35px 20px 35px;
+      }
+
+      .partner-citation {
+        @include uberfont(16px, 300, 24px);
+        margin: 0px 35px 20px 35px;
+
+        span {
+          font-weight: 400;
+        }
+      }
+
+      .citation-jenny, .citation-sean {
+        margin-top: 38px;
+      }
+    }
+  }
+
+  .slide-partners {
+    position: absolute;
+    top: 410px;
+    width: 58px;
+    height: 58px;
+    @include flexdisplay(row,center,center);
+    background-color: $uberlightgreen;
+
+    .fa-long-arrow-right, .fa-long-arrow-left {
+      color: $uberwhitebackground;
+      font-size: 1.5em;
+    }
+  }
+
+  .slide-left {
+    right: 0px;
+  }
+
+  .slide-right {
+    left: 0px;
+  }
+
+  .slide-left:hover, .slide-right:hover {
+    background-color: $uberdarkgreen;
+    transition: all .2s ease-in-out;
+  }
+
+  .circles-right {
+    width: 50px;
+    height: 90px;
+    @include flexdisplay(row,space-around,center);
+    margin: 0 auto;
+
+    .left-circle {
+      width: 11.5px;
+      height: 11.5px;
+      border: 1px solid $uberlightgreen;
+      border-radius: 50%;
+    }
+
+    .right-circle {
+      width: 6.5px;
+      height: 6.5px;
+      background-color: $uberlightgreen;
+      border-radius: 50%;
+    }
+  }
+}

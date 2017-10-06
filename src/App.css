@@ -3050,3 +3050,121 @@
       background-color: #295429;
       padding-right: 15px;
       transition: all .2s ease-in-out; }
+
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 300i, 400, 600, 700, 800*/
+/*END MX*/
+/*START UBER*/
+/*END UBER*/
+.uber-partners {
+  position: relative;
+  top: 60px;
+  height: 830px;
+  min-width: 100%;
+  background-color: #F8F8F9;
+  padding-top: 80px; }
+  .uber-partners h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 200;
+    /*300, 400, 500, 600, 700*/
+    line-height: 23px;
+    margin-bottom: 12px; }
+  .uber-partners h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    /*300, 400, 500, 600, 700*/
+    line-height: 44px;
+    margin-bottom: 24px; }
+  .uber-partners h1, .uber-partners h2 {
+    margin-left: 230px; }
+  .uber-partners .partners-container {
+    height: 515px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1000px; }
+    .uber-partners .partners-container .partner-card {
+      height: 513px;
+      width: 479px;
+      background-color: #FFFFFF;
+      margin: 0px 12px; }
+      .uber-partners .partners-container .partner-card .partner-img {
+        width: 479px;
+        height: 299px;
+        background-size: cover;
+        background-position: center; }
+      .uber-partners .partners-container .partner-card .partner1 {
+        background-image: url("https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/8e1f056b-bbe8-4910-b477-9ebe9c1356e6/desk2x.jpg"); }
+      .uber-partners .partners-container .partner-card .partner2 {
+        background-image: url("https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/1bfa5f79-0418-4a46-8fff-9b5a4aca9943/desk2x.jpg"); }
+      .uber-partners .partners-container .partner-card .partner3 {
+        background-image: url("https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/01de97a8-09cb-4d61-8d36-b96b60f83e6a/desk2x.jpg"); }
+      .uber-partners .partners-container .partner-card .partner4 {
+        background-image: url("https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/bb53082f-1436-453c-97d6-a48f3e3ade64/desk2x.jpg"); }
+      .uber-partners .partners-container .partner-card .partner-quote {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        /*300, 400, 500, 600, 700*/
+        line-height: 24px;
+        margin: 40px 35px 20px 35px; }
+      .uber-partners .partners-container .partner-card .partner-citation {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        /*300, 400, 500, 600, 700*/
+        line-height: 24px;
+        margin: 0px 35px 20px 35px; }
+        .uber-partners .partners-container .partner-card .partner-citation span {
+          font-weight: 400; }
+      .uber-partners .partners-container .partner-card .citation-jenny, .uber-partners .partners-container .partner-card .citation-sean {
+        margin-top: 38px; }
+  .uber-partners .slide-partners {
+    position: absolute;
+    top: 410px;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #377037; }
+    .uber-partners .slide-partners .fa-long-arrow-right, .uber-partners .slide-partners .fa-long-arrow-left {
+      color: #FFFFFF;
+      font-size: 1.5em; }
+  .uber-partners .slide-left {
+    right: 0px; }
+  .uber-partners .slide-right {
+    left: 0px; }
+  .uber-partners .slide-left:hover, .uber-partners .slide-right:hover {
+    background-color: #295429;
+    transition: all .2s ease-in-out; }
+  .uber-partners .circles-right {
+    width: 50px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto; }
+    .uber-partners .circles-right .left-circle {
+      width: 11.5px;
+      height: 11.5px;
+      border: 1px solid #377037;
+      border-radius: 50%; }
+    .uber-partners .circles-right .right-circle {
+      width: 6.5px;
+      height: 6.5px;
+      background-color: #377037;
+      border-radius: 50%; }
