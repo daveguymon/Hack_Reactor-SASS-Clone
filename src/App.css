@@ -2974,3 +2974,79 @@
           width: 1px;
           height: 70px;
           background-color: #C6C6C6; }
+
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 300i, 400, 600, 700, 800*/
+/*END MX*/
+/*START UBER*/
+/*END UBER*/
+.reasons-to-drive {
+  position: relative;
+  top: 60px;
+  max-width: 100%;
+  height: 480px;
+  background-image: url("https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/76830279-22dd-4a34-8150-004f75a3afd9/desk2x.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+  .reasons-to-drive .reasons-to-drive-contents {
+    color: #FFFFFF;
+    width: 500px;
+    height: 320px;
+    margin-left: 230px;
+    padding-top: 30px; }
+    .reasons-to-drive .reasons-to-drive-contents h1 {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 38px;
+      font-weight: 300;
+      /*300, 400, 500, 600, 700*/
+      line-height: 44px; }
+    .reasons-to-drive .reasons-to-drive-contents h2 {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 38px;
+      font-weight: 200;
+      /*300, 400, 500, 600, 700*/
+      line-height: 44px; }
+    .reasons-to-drive .reasons-to-drive-contents p {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 200;
+      /*300, 400, 500, 600, 700*/
+      line-height: 24px;
+      margin: 18px 0; }
+    .reasons-to-drive .reasons-to-drive-contents .reasons-to-drive-button {
+      position: relative;
+      left: 0px;
+      top: 25px;
+      width: 220px;
+      height: 44px;
+      background-color: #377037;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 20px 0 10px;
+      transition: all .2s ease-in-out; }
+      .reasons-to-drive .reasons-to-drive-contents .reasons-to-drive-button p {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        /*300, 400, 500, 600, 700*/
+        line-height: 44px;
+        color: #FFFFFF; }
+      .reasons-to-drive .reasons-to-drive-contents .reasons-to-drive-button .fa-long-arrow-right {
+        color: #FFFFFF; }
+    .reasons-to-drive .reasons-to-drive-contents .reasons-to-drive-button:hover {
+      background-color: #295429;
+      padding-right: 15px;
+      transition: all .2s ease-in-out; }

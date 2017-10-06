@@ -167,4 +167,26 @@ $uberdarkgrey: #C6C6C6;
   padding: 10px;
   @include uberfont(16px, 200, $height);
 }
+
+@mixin uberbutton($width, $left, $top){
+  position: relative;
+  left: $left;
+  top: $top;
+  width: $width;
+  height: 44px;
+  background-color: $uberlightgreen;
+  @include flexdisplay(row,space-between,center);
+  padding: 0px 20px 0 10px;;
+  transition: all .2s ease-in-out;
+
+  p {
+    @include uberfont(15px, 400, 44px);
+    color: $uberwhitebackground;
+  }
+
+  .fa-long-arrow-right {
+    color: $uberwhitebackground;
+  }
+}
+
 /*END UBER*/

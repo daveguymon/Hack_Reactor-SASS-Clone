@@ -1,0 +1,43 @@
+@import './../variables.scss';
+
+.reasons-to-drive {
+  position: relative;
+  top: 60px;
+  max-width: 100%;
+  height: 480px;
+  background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/76830279-22dd-4a34-8150-004f75a3afd9/desk2x.jpg');
+  background-size: cover;
+  background-position: center;
+  @include flexdisplay(row,flex-start,center);
+
+  .reasons-to-drive-contents {
+    color: $uberwhitebackground;
+    width: 500px;
+    height: 320px;
+    margin-left: 230px;
+    padding-top: 30px;
+
+    h1 {
+      @include uberfont(38px, 300, 44px);
+    }
+
+    h2 {
+      @include uberfont(38px, 200, 44px);
+    }
+
+    p {
+      @include uberfont(16px, 200, 24px);
+      margin: 18px 0;
+    }
+    .reasons-to-drive-button {
+      @include uberbutton(220px, 0px, 25px);
+    }
+
+
+    .reasons-to-drive-button:hover {
+      background-color: $uberdarkgreen;
+      padding-right: 15px;
+      transition: all .2s ease-in-out;
+    }
+  }
+}

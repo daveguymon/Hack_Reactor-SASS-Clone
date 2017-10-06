@@ -49,25 +49,9 @@
   }
 
   .reasons-to-ride-button {
-    position: relative;
-    left: -380px;
-    top: -15px;
-    width: 220px;
-    height: 44px;
-    background-color: $uberlightgreen;
-    @include flexdisplay(row,space-between,center);
-    padding: 0px 20px 0 10px;;
-    transition: all .2s ease-in-out;
-
-    p {
-      @include uberfont(15px, 400, 44px);
-      color: $uberwhitebackground;
-    }
-
-    .fa-long-arrow-right {
-      color: $uberwhitebackground;
-    }
+    @include uberbutton(220px, -380px, -15px);
   }
+
 
   .reasons-to-ride-button:hover {
     background-color: $uberdarkgreen;
