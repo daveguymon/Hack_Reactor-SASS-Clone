@@ -12,7 +12,6 @@
     height: 620px;
     @include flexdisplay(row,flex-end,center);
     margin: 0 auto;
-    border: 1px solid red;
 
     .fare-estimate-text {
       width: 381px;
@@ -29,6 +28,15 @@
         .pickup {
         @include uberinput(305px, 26px);
         padding-left: 30px;
+        outline: none;
+        }
+
+        .fa-location-arrow, .fa-times {
+          position: relative;
+          top: -42.5px;
+          left: 315px;
+          color: $uberdarkgrey;
+          font-size: 1.25em;
         }
 
         .destination-container {
@@ -39,6 +47,7 @@
           .destination {
           @include uberinput(256px, 26px);
           padding-left: 30px;
+          outline: none;
           }
 
           .destination-arrow {
@@ -50,6 +59,34 @@
             @include flexdisplay(row,center,center);
             color: $uberwhitebackground;
           }
+        }
+
+        .input-connector-dot {
+          position: absolute;
+          left: 153px;
+          width: 5px;
+          height: 5px;
+          z-index: 50;
+          border-radius: 50%;
+        }
+
+        .green-dot {
+          background-color: green;
+          top: 287.5px;
+        }
+
+        .red-dot {
+          background-color: red;
+          top: 357.5px;
+        }
+
+        .dot-connector {
+          position: absolute;
+          left: 155px;
+          top: 287.5px;
+          width: 1px;
+          height: 70px;
+          background-color: $uberdarkgrey;
         }
       }
     }

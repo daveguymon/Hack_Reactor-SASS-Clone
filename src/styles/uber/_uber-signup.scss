@@ -86,10 +86,12 @@
 
       input {
         @include uberinput(148px, 32px);
+        outline: none;
       }
     }
     input {
       @include uberinput(320px, 32px);
+      outline: none;
     }
 
     .input-city {

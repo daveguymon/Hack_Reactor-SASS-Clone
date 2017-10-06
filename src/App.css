@@ -62,15 +62,15 @@
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 2px 0px; }
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 2px 0px;
+    background-size: cover;
+    background-repeat: no-repeat; }
   .project-home .hack-reactor-project {
-    background-image: url("./images/hack-reactor-homepage.png");
-    background-size: cover;
-    background-repeat: no-repeat; }
+    background-image: url("./images/hack-reactor-homepage.png"); }
   .project-home .mx-project {
-    background-image: url("./images/mx-homepage.png");
-    background-size: cover;
-    background-repeat: no-repeat; }
+    background-image: url("./images/mx-homepage.png"); }
+  .project-home .uber-project {
+    background-image: url("./images/uber-homepage.png"); }
 
 /*BEGIN PROJECT HOME*/
 /*font weights include 400, 700*/
@@ -2631,7 +2631,8 @@
         font-size: 16px;
         font-weight: 200;
         /*300, 400, 500, 600, 700*/
-        line-height: 32px; }
+        line-height: 32px;
+        outline: none; }
     .uber-signup .uber-input-fields input {
       width: 320px;
       height: 32px;
@@ -2640,7 +2641,8 @@
       font-size: 16px;
       font-weight: 200;
       /*300, 400, 500, 600, 700*/
-      line-height: 32px; }
+      line-height: 32px;
+      outline: none; }
     .uber-signup .uber-input-fields .input-city {
       margin: 12px 0px 36px 0px; }
   .uber-signup .uber-signup-button {
@@ -2876,8 +2878,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    margin: 0 auto;
-    border: 1px solid red; }
+    margin: 0 auto; }
     .fare-estimate .fare-estimate-contents .fare-estimate-text {
       width: 381px;
       height: 460px;
@@ -2916,7 +2917,14 @@
           font-weight: 200;
           /*300, 400, 500, 600, 700*/
           line-height: 26px;
-          padding-left: 30px; }
+          padding-left: 30px;
+          outline: none; }
+        .fare-estimate .fare-estimate-contents .fare-estimate-text .fare-estimate-inputs .fa-location-arrow, .fare-estimate .fare-estimate-contents .fare-estimate-text .fare-estimate-inputs .fa-times {
+          position: relative;
+          top: -42.5px;
+          left: 315px;
+          color: #C6C6C6;
+          font-size: 1.25em; }
         .fare-estimate .fare-estimate-contents .fare-estimate-text .fare-estimate-inputs .destination-container {
           width: 364px;
           height: 26px;
@@ -2933,7 +2941,8 @@
             font-weight: 200;
             /*300, 400, 500, 600, 700*/
             line-height: 26px;
-            padding-left: 30px; }
+            padding-left: 30px;
+            outline: none; }
           .fare-estimate .fare-estimate-contents .fare-estimate-text .fare-estimate-inputs .destination-container .destination-arrow {
             position: relative;
             left: -1px;
@@ -2945,3 +2954,23 @@
             justify-content: center;
             align-items: center;
             color: #FFFFFF; }
+        .fare-estimate .fare-estimate-contents .fare-estimate-text .fare-estimate-inputs .input-connector-dot {
+          position: absolute;
+          left: 153px;
+          width: 5px;
+          height: 5px;
+          z-index: 50;
+          border-radius: 50%; }
+        .fare-estimate .fare-estimate-contents .fare-estimate-text .fare-estimate-inputs .green-dot {
+          background-color: green;
+          top: 287.5px; }
+        .fare-estimate .fare-estimate-contents .fare-estimate-text .fare-estimate-inputs .red-dot {
+          background-color: red;
+          top: 357.5px; }
+        .fare-estimate .fare-estimate-contents .fare-estimate-text .fare-estimate-inputs .dot-connector {
+          position: absolute;
+          left: 155px;
+          top: 287.5px;
+          width: 1px;
+          height: 70px;
+          background-color: #C6C6C6; }
