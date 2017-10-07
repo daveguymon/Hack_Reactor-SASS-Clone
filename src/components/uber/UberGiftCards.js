@@ -4,7 +4,7 @@ export default function UberGiftCards (props) {
 
   return (
     <main className="uber-gift-cards">
-      <img src="https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/b82c316e-e9b9-4ae1-8fcc-41f13e55d690/desk.jpg" />
+      <img src="https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/b82c316e-e9b9-4ae1-8fcc-41f13e55d690/desk.jpg" alt="Uber gift card" />
       <div className="gift-cards-text-contents">
         <h2>Gift cards</h2>
         <h1>The gift of Uber</h1>

@@ -8,6 +8,7 @@ import FareEstimate from './uber/FareEstimate';
 import ReasonsToDrive from './uber/ReasonsToDrive';
 import UberPartners from './uber/UberPartners';
 import UberGiftCards from './uber/UberGiftCards';
+import UberConversation from './uber/UberConversation';
 
 
 
@@ -24,6 +25,7 @@ export default function Uber (props) {
       <ReasonsToDrive />
       <UberPartners />
       <UberGiftCards />
+      <UberConversation />
     </div>
   );
 }

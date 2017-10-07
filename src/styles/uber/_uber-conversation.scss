@@ -1,0 +1,41 @@
+@import './../variables.scss';
+
+.uber-conversation {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: 460px;
+  background-image: url('https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/03fd55a7-6268-4006-a568-7bea4460c7f5/desk2x.jpg');
+  background-size: cover;
+  background-position: center;
+  color: $uberwhitebackground;
+
+  .uber-conversation-text-contents {
+    margin-left: 225px;
+    padding-top: 115px;
+
+    h1 {
+      @include uberfont(36px, 300, 44px);
+      margin-bottom: 24px;
+    }
+
+    p {
+      @include uberfont(16px, 300, 24px);
+      margin-bottom: 16px;
+    }
+
+    .uber-conversation-button {
+      @include uberbutton(188px, 0px, 25px);
+
+      p {
+        margin-bottom: 0px;
+      }
+    }
+
+    .uber-conversation-button:hover {
+      background-color: $uberdarkgreen;
+      padding-right: 15px;
+      transition: all .2s ease-in-out;
+    }
+  }
+}
