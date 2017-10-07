@@ -10,6 +10,7 @@ import UberPartners from './uber/UberPartners';
 import UberGiftCards from './uber/UberGiftCards';
 import UberConversation from './uber/UberConversation';
 import UberFindCity from './uber/UberFindCity';
+import UberSkyline from './uber/UberSkyline';
 
 
 
@@ -28,6 +29,7 @@ export default function Uber (props) {
       <UberGiftCards />
       <UberConversation />
       <UberFindCity />
+      <UberSkyline />
     </div>
   );
 }
