@@ -7,6 +7,7 @@
   height: 402px;
   background-color: $ubergreybackground;
   @include flexdisplay(row,flex-start,center);
+  overflow: hidden;
 
   .uber-commitment-text {
     width: 718px;

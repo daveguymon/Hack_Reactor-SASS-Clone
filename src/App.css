@@ -2798,7 +2798,8 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center; }
+  align-items: center;
+  overflow: hidden; }
   .uber-commitment .uber-commitment-text {
     width: 718px;
     height: 402px;
@@ -3093,7 +3094,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 1000px; }
+    padding-left: 1000px;
+    overflow: hidden; }
     .uber-partners .partners-container .partner-card {
       height: 513px;
       width: 479px;

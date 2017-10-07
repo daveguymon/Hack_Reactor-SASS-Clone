@@ -18,6 +18,7 @@
     width: 100%;
     @include flexdisplay(row,center,center);
     padding-left: 1000px;
+    overflow: hidden;
 
     .partner-card {
       height: 513px;
