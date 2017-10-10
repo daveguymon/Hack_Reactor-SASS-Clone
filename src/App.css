@@ -3376,3 +3376,94 @@
   height: 181px;
   background-image: url("./images/uber-skyline.png");
   background-size: cover; }
+
+/*BEGIN PROJECT HOME*/
+/*font weights include 400, 700*/
+/*END PROJECT HOME*/
+/*BEGIN HACK REACTOR*/
+/*font weights include 200, 300, 400, 600*/
+/*font weights include 300, 400*/
+/*END HACK REACTOR*/
+/*START MX*/
+/*font weights include 300i, 400, 600, 700, 800*/
+/*END MX*/
+/*START UBER*/
+/*END UBER*/
+.uber-footer {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: 915px;
+  background-color: #000000;
+  padding-top: 52px;
+  color: #FFFFFF; }
+  .uber-footer .uber-footer-buttons {
+    width: 1150px;
+    height: 125px;
+    margin: 0 auto;
+    border-bottom: 1px solid #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; }
+    .uber-footer .uber-footer-buttons .uber-footer-logo {
+      background-image: url("./images/uber-logo-white.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 363px;
+      height: 34px; }
+    .uber-footer .uber-footer-buttons .uber-footer-signup-btn {
+      margin: 0 234px 0 30px; }
+    .uber-footer .uber-footer-buttons .uber-footer-signup-btn, .uber-footer .uber-footer-buttons .uber-footer-drive-btn {
+      position: relative;
+      left: 0px;
+      top: 0px;
+      width: 159px;
+      height: 44px;
+      background-color: #377037;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 20px 0 20px;
+      transition: all .2s ease-in-out;
+      background-color: #FFFFFF;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      animation: all .2s ease-in-out; }
+      .uber-footer .uber-footer-buttons .uber-footer-signup-btn p, .uber-footer .uber-footer-buttons .uber-footer-drive-btn p {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        /*300, 400, 500, 600, 700*/
+        line-height: 44px;
+        color: #FFFFFF; }
+      .uber-footer .uber-footer-buttons .uber-footer-signup-btn .fa-long-arrow-right, .uber-footer .uber-footer-buttons .uber-footer-drive-btn .fa-long-arrow-right {
+        color: #FFFFFF; }
+      .uber-footer .uber-footer-buttons .uber-footer-signup-btn p, .uber-footer .uber-footer-buttons .uber-footer-drive-btn p {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        /*300, 400, 500, 600, 700*/
+        line-height: 44px;
+        color: #000000;
+        animation: all .2s ease-in-out; }
+    .uber-footer .uber-footer-buttons .uber-footer-signup-btn:hover, .uber-footer .uber-footer-buttons .uber-footer-drive-btn:hover {
+      background-color: #e5e5e4;
+      animation: all .2s ease-in-out; }
+    .uber-footer .uber-footer-buttons .uber-footer-drive-btn {
+      width: 173px;
+      border: 3px solid #FFFFFF;
+      background-color: #000000; }
+      .uber-footer .uber-footer-buttons .uber-footer-drive-btn p {
+        color: #FFFFFF;
+        animation: all .2s ease-in-out; }
+    .uber-footer .uber-footer-buttons .uber-footer-drive-btn:hover {
+      border-color: #e5e5e4;
+      color: #000000;
+      animation: all .2s ease-in-out; }
+      .uber-footer .uber-footer-buttons .uber-footer-drive-btn:hover p {
+        color: #000000;
+        animation: all .2s ease-in-out; }

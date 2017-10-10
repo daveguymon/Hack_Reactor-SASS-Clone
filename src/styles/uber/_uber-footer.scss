@@ -1,0 +1,72 @@
+@import './../variables.scss';
+
+.uber-footer {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: 915px;
+  background-color: $headingfontcolor;
+  padding-top: 52px;
+  color: $uberwhitebackground;
+
+  .uber-footer-buttons {
+    width: 1150px;
+    height: 125px;
+    margin: 0 auto;
+    border-bottom: 1px solid $uberbuttongrey * .15;
+    @include flexdisplay(row,flex-start,center);
+
+    .uber-footer-logo {
+      background-image: url('./images/uber-logo-white.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 363px;
+      height: 34px;
+    }
+
+    .uber-footer-signup-btn {
+      margin: 0 234px 0 30px;
+    }
+
+    .uber-footer-signup-btn, .uber-footer-drive-btn {
+      @include uberbutton(159px, 0px, 0px);
+      background-color: $uberwhitebackground;
+      @include flexdisplay(row,center,center);
+      animation: all .2s ease-in-out;
+
+      p {
+        @include uberfont(15px, 500, 44px);
+        color: $headingfontcolor;
+        animation: all .2s ease-in-out;
+
+      }
+    }
+
+    .uber-footer-signup-btn:hover, .uber-footer-drive-btn:hover {
+      background-color: $uberbuttongrey;
+      animation: all .2s ease-in-out;
+    }
+
+    .uber-footer-drive-btn {
+      width: 173px;
+      border: 3px solid $uberwhitebackground;
+      background-color: $headingfontcolor;
+
+      p {
+        color: $uberwhitebackground;
+        animation: all .2s ease-in-out;
+      }
+    }
+
+    .uber-footer-drive-btn:hover {
+      border-color: $uberbuttongrey;
+      color: $headingfontcolor;
+      animation: all .2s ease-in-out;
+
+      p {
+        color: $headingfontcolor;
+        animation: all .2s ease-in-out;
+      }
+    }
+  }
+}

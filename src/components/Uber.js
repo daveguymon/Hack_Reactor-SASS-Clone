@@ -11,6 +11,7 @@ import UberGiftCards from './uber/UberGiftCards';
 import UberConversation from './uber/UberConversation';
 import UberFindCity from './uber/UberFindCity';
 import UberSkyline from './uber/UberSkyline';
+import UberFooter from './uber/UberFooter';
 
 
 
@@ -30,6 +31,7 @@ export default function Uber (props) {
       <UberConversation />
       <UberFindCity />
       <UberSkyline />
+      <UberFooter />
     </div>
   );
 }
