@@ -3497,3 +3497,36 @@
       bottom: -250px; }
       .uber-footer .uber-footer-nav-cols .nav-col-1 .uber-footer-social-icons .fa {
         margin-right: 12px; }
+  .uber-footer .uber-footer-cities {
+    width: 1150px;
+    height: 93px;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .uber-footer .uber-footer-cities .footer-cities-links {
+      width: 1150px;
+      height: 28px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center; }
+      .uber-footer .uber-footer-cities .footer-cities-links .top-city, .uber-footer .uber-footer-cities .footer-cities-links .top-country {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 200;
+        /*300, 400, 500, 600, 700*/
+        line-height: 20px;
+        margin-right: 335px; }
+      .uber-footer .uber-footer-cities .footer-cities-links .top-country {
+        margin-right: 310px; }
+      .uber-footer .uber-footer-cities .footer-cities-links .uber-location {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        /*300, 400, 500, 600, 700*/
+        line-height: 20px;
+        margin-right: 16px; }

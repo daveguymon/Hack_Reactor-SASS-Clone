@@ -48,6 +48,26 @@ export default function UberFooter (props) {
           <p className="nav-col-link">Uber vs Driving Jobs</p>
         </div>
       </section>
+      <section className="uber-footer-cities">
+        <div className="footer-cities-links">
+          <p className="top-city">Top Cities</p>
+          <p className="uber-location">San Francisco</p>
+          <p className="uber-location">London</p>
+          <p className="uber-location">Los Angeles</p>
+          <p className="uber-location">Washington D.C.</p>
+          <p className="uber-location">Mexico City</p>
+          <p className="uber-location">Sao Paulo</p>
+        </div>
+        <div className="footer-cities-links">
+          <p className="top-country">Top Countries</p>
+          <p className="uber-location">USA</p>
+          <p className="uber-location">France</p>
+          <p className="uber-location">India</p>
+          <p className="uber-location">Spain</p>
+          <p className="uber-location">Mexico</p>
+          <p className="uber-location">Russia</p>
+        </div>
+      </section>
     </main>
   )
 }
