@@ -3467,3 +3467,33 @@
       .uber-footer .uber-footer-buttons .uber-footer-drive-btn:hover p {
         color: #000000;
         animation: all .2s ease-in-out; }
+  .uber-footer .uber-footer-nav-cols {
+    width: 1150px;
+    height: 453px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .uber-footer .uber-footer-nav-cols .nav-col {
+      width: 363px;
+      height: 423px; }
+      .uber-footer .uber-footer-nav-cols .nav-col .nav-col-link {
+        width: 363px;
+        height: 40px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        /*300, 400, 500, 600, 700*/
+        line-height: 40px; }
+        .uber-footer .uber-footer-nav-cols .nav-col .nav-col-link .fa-map-marker, .uber-footer .uber-footer-nav-cols .nav-col .nav-col-link .fa-globe, .uber-footer .uber-footer-nav-cols .nav-col .nav-col-link .fa-life-ring {
+          width: 20px;
+          margin-right: 15px;
+          font-size: 1em; }
+        .uber-footer .uber-footer-nav-cols .nav-col .nav-col-link .fa-map-marker {
+          font-size: 1.3em; }
+    .uber-footer .uber-footer-nav-cols .nav-col-1 .uber-footer-social-icons {
+      position: relative;
+      bottom: -250px; }
+      .uber-footer .uber-footer-nav-cols .nav-col-1 .uber-footer-social-icons .fa {
+        margin-right: 12px; }

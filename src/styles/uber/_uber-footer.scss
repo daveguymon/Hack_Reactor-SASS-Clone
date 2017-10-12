@@ -69,4 +69,44 @@
       }
     }
   }
+
+  .uber-footer-nav-cols {
+    width: 1150px;
+    height: 453px;
+    margin: 0 auto;
+    @include flexdisplay(row,space-between,center);
+
+    .nav-col {
+      width: 363px;
+      height: 423px;
+
+      .nav-col-link {
+        width: 363px;
+        height: 40px;
+        @include uberfont(16px, 300, 40px);
+
+        .fa-map-marker, .fa-globe, .fa-life-ring {
+          width: 20px;
+          margin-right: 15px;
+          font-size: 1em;
+        }
+
+        .fa-map-marker {
+          font-size: 1.3em;
+        }
+      }
+    }
+
+    .nav-col-1 {
+
+      .uber-footer-social-icons {
+        position: relative;
+        bottom: -250px;
+
+        .fa {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
 }
