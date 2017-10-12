@@ -112,7 +112,7 @@
 
   .uber-footer-cities {
     width: 1150px;
-    height: 93px;
+    height: 109px;
     border-top: 1px solid $uberbuttongrey * .15;
     border-bottom: 1px solid $uberbuttongrey * .15;
     margin: 0 auto;
@@ -122,6 +122,7 @@
       width: 1150px;
       height: 28px;
       @include flexdisplay(row,flex-start,center);
+      margin-bottom: 2px;
 
       .top-city, .top-country {
         @include uberfont(14px, 200, 20px);
@@ -136,6 +137,64 @@
         @include uberfont(14px, 300, 20px);
         margin-right: 16px;
       }
+    }
+  }
+  .footer-app-links {
+    @include flexdisplay(row,center,center);
+    width: 1150px;
+    height: 109px;
+    margin: 0 auto;
+    border-bottom: 1px solid $uberbuttongrey * .15;
+
+
+    .uber-footer-app {
+      width: 120px;
+      height: 35px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .uber-app-1 {
+      background-image: url('https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.1/d1a3f4spazzrp4.cloudfront.net/images/global/app-store-8c177b28a0.svg');
+    }
+
+    .uber-app-2 {
+      background-image: url('https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png');
+      background-size: cover;
+      width: 130px;
+      margin-left: 10px;
+    }
+
+    .uber-app-3 {
+      background-image: url('https://assets.windowsphone.com/8d997df3-5b6e-496c-88b3-e3f40117c8fd/English-get-it-from-MS_InvariantCulture_Default.png');
+    }
+  }
+
+  .footer-fineprint {
+    width: 1150px;
+    height: 50px;
+    margin: 0 auto;
+    @include flexdisplay(row,flex-start,center);
+    padding-top: 30px;
+
+    .fineprint {
+      @include uberfont(12px, 200, 16px);
+      width: 160px;
+      height: 30px;
+    }
+
+    .fineprint-1 {
+      margin-right: 230px;
+    }
+
+    .fineprint-2 {
+      font-weight: 400;
+      margin-right: 230px;
+    }
+
+    .fineprint-3 {
+      font-weight: 400;
     }
   }
 }

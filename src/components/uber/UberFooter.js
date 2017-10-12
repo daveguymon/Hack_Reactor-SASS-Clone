@@ -68,6 +68,16 @@ export default function UberFooter (props) {
           <p className="uber-location">Russia</p>
         </div>
       </section>
+      <section className="footer-app-links">
+        <div className="uber-footer-app uber-app-1"></div>
+        <div className="uber-footer-app uber-app-2"></div>
+        <div className="uber-footer-app uber-app-3"></div>
+      </section>
+      <section className="footer-fineprint">
+        <p className="fineprint fineprint-1">© 2017 Uber Technologies Inc.</p>
+        <p className="fineprint fineprint-2">Privacy<br /><br />Accessibility</p>
+        <p className="fineprint fineprint-3">Terms</p>
+      </section>
     </main>
   )
 }
