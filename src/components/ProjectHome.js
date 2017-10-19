@@ -7,7 +7,6 @@ export default function ProjectHome (props) {
     <main className="project-home">
       <header>
         <img src="http://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png" alt="sass logo"/>
-        <p>a few <span>pixel perfect</span> homepage clones.</p>
       </header>
 
       <h1 className="project-description">I taught myself <span>SASS</span> to make my code even better.</h1>
